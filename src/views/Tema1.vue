@@ -5,440 +5,162 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Titulo de primer nivel
-    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-      .row(titulo="Titulo item 1")
-        .col-md-6.mb-4.mb-md-0
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+      h1 Accionamiento del eje de levas
+
+    .row.align-items-center
+      .col-md-auto.d-none.d-lg-block
+        figure
+          img(src="@/assets/curso/tema1/img1.png", alt="", style="width: 90px").m-auto
+      .col
+        p.mb-0 A pesar de que puede variar de acuerdo al diseño del constructor y de la ubicación del eje o de los de levas en el motor, entre los movimientos más utilizados se encuentran: a través de piñones en toma constante, de piñones con cadenas metálicas, de dientes rectos y de bandas dentadas.
+
+
+    separador
+    #t_1_1.titulo-segundo.color-acento-contenido
+      h2 1.1 Accionamiento del eje de levas por piñones
+
+    .row
+      .col-lg-7
+        .row.justify-content-center.bg-t1-1.align-items-center
+          .col-lg-3.d-flex.justify-content-center.align-items-center
+            figure
+              img(src="@/assets/curso/tema1/img2.png").m-auto
+          .col-lg-9
+            p Cuando el eje de levas con el cigüeñal está cerca, se dice que se utiliza engranajes o piñones en toma constante. Para evitar ruido en la trasmisión del movimiento se suele acudir a piñones de dientes inclinados, piñones de fibras o de tejido duro.
+        
+        p.mt-4 El piñón del cigüeñal engrana con el del eje de levas, teniendo este último el doble del número de dientes que el piñón del cigüeñal, para que la relación 2:1 se mantenga, a pesar de que se podría tener un piñón intermedio, cuando los dos ejes están más alejados entre sí.
+
+      .col-lg-5
+        figure
+          img(src='@/assets/curso/tema1/img3.png', alt='', style="width: 480px").m-auto
+
+    .row.mt-4.justify-content-center
+      .col-lg-3
+        figure
+          img(src='@/assets/curso/tema1/img4.png', alt='', style="width: 480px").m-auto
+      .col-5
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 1
+          span Accionamiento del eje de levas por piñones  
+        figure
+          img(src='@/assets/curso/tema1/img5.png', alt='La imagen muestra un diagrama técnico del sistema de distribución de un motor de combustión interna, ilustrando la conexión entre el cigüeñal y el árbol de levas mediante un conjunto de engranajes.', style="width: 480px").m-auto
+          figcaption.mt-2 Nota. Tomado y adaptado de https://www.ro-des.com/mecanica/averias-en-el-arbol-de-levas/
+
+    separador
+    #t_1_2.titulo-segundo.color-acento-contenido
+      h2 1.2 Accionamiento del eje levas por cadena metálica
+
+    .row.justify-content-center.bg-t1-2
+      .col-12
+        .p-4
+          .row
+            .col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
+              .p-4.h-100
+                p El sistema de mando con cadena metálica se utiliza con frecuencia cuando las distancias entre los dos ejes es mayor, a pesar de que el eje de levas está en el bloque de cilindros o en la culata. Para garantizar que la cadena esté permanente templada, se diseña un templador y unas pistas de deslizamiento de la cadena, que actúan como guía, así se evita el ‘chasquido’ producido con la transmisión del movimiento.
+            .col-md-6.col-lg-4(data-aos="fade-left")
+              .p-4.bg-t1-3.h-100
+                figure.mb-3(style="visibility: hidden;") 
+                  img(src='@/assets/curso/tema1/img6.png', alt='', style="width: 120px;").target-with
+            .col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
+              .p-4.bg-t1-4.h-100
+                figure
+                  img(src='@/assets/curso/tema1/img7.png', alt='', style="width: 140px")
+                p Ahora, el sistema de cadena tiene la desventaja de contar entre sus partes móviles con mucha masa o peso, lo que reduce de alguna forma la potencia del motor donde se encuentra instalado.
+
+          .row.justify-content-center.p-4.mt-4
+            .col-10
+              .row.bg-t1-5.p-4.justify-content-center
+                p Esta clase de sistema está exento de mantenimiento durante la vida útil del motor y es bastante confiable, por eso los fabricantes suele utilizarlo seguido para sus motores.
+                .row.justify-content-center
+                  .col-lg-4
+                    figure
+                      img(src='@/assets/curso/tema1/img8.png', alt='', style="width: 480px").m-auto
+                  .col-lg-6
+                    .titulo-sexto.color-acento-contenido.mb-3
+                      h5 Figura 2
+                      span Accionamiento del eje levas por cadena metálica
+                    figure
+                      img(src='@/assets/curso/tema1/img9.png', alt='La imagen muestra un esquema del sistema de distribución de un motor de combustión interna, resaltando los componentes clave del mecanismo de válvulas. Se observa la cadena de distribución, que transmite el movimiento del piñón del cigüeñal al piñón del árbol de levas, permitiendo la sincronización de las válvulas de admisión y escape. También se identifican elementos como el taqué, la varilla empujadora, el balancín y el muelle de cierre, los cuales controlan la apertura y cierre de las válvulas en el ciclo del motor.', style="width: 480px").m-auto
+
+            
+
+
+    separador
+    #t_1_3.titulo-segundo.color-acento-contenido
+      h2 1.3 Accionamiento del eje de levas por banda dentada
+    
+    .row.justify-content-center.mb-5.align-items-center
+      .col-lg-7(data-aos="fade-down")
+        .row.d-flex.align-items-stretch.bg-t1-6
+          .col-xl-auto.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+            figure.m-0.p-0.w-100.h-100.d-flex
+              img(src='@/assets/curso/tema1/img10.png', alt='', class="w-100 h-100 object-fit-cover" style="margin-left: -10px;")
+          
+          .col-xl.d-flex
+            .p-4.w-100.d-flex.align-items-center
+              p.mb-0 Para compensar este defecto del posible ruido que produce la cadena durante la transmisión y a reducir el peso de este elemento transmisor, se han diseñado sistemas de transmisión por banda dentada, banda construida de fibras especiales y de goma, cuyas fibras longitudinales evitan su variación o rotura.
+      .col-lg-5
+        figure
+          img(src='@/assets/curso/tema1/img11.png', alt='', style="width: 480px").m-auto
+
+    .row.align-items-center
+      .col-md-auto.d-none.d-lg-block
+        figure
+          img(src="@/assets/curso/tema1/img12.png", alt="", style="width: 90px").m-auto
+      .col
+        p.mb-0 Esta banda es movida desde el cigüeñal por un piñón de dientes planos, los cuales no permiten que ‘patine’ el movimiento hasta el piñón del eje de levas. También como en el caso anterior, se requiere de un tensor de la banda, el cual es empujado por un muelle o puede ser presionado hidráulicamente por un pistón tensor o un sistema excéntrico de tensionado de la banda.
+
+    .row.justify-content-center.mt-4
+      .col-10
+        .row.justify-content-center
+          .titulo-sexto.color-acento-contenido.mb-3
+            h5 Figura 3 
+            span Motor de cuatro cilindros, cuya distribución es comandada por una banda dentada, que impulsa a dos ejes de levas
+          .col-6
+            figure
+            img(src='@/assets/curso/tema1/img13.png', alt='Motor de cuatro cilindros, cuya distribución es comandada por una banda dentada, que impulsa a dos ejes de levas.', style="width: 480px").m-auto
+          .col-6
+            figure
+            img(src='@/assets/curso/tema1/img14.png', alt='', style="width: 480px").m-auto
+
+    .row.mt-4
+      .row.mb-2.ms-0.mt-4
+        .col-auto.bg-subtitulo(data-aos="fade-left")
+          .row.align-items-center
+            .col-auto.px-0
+              figure
+                img(src='@/assets/curso/tema1/icon1.svg', alt='', style='width: 60px')
+            .col
+              h3.mb-0(style="color:white") Ventajas de la banda dentada frente a otros sistemas
+
+
+    .row.d-flex.align-items-stretch.bg-t1-7 
+      .col-xl-5.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+        figure.m-0.p-0.w-100.h-100.d-flex
+          img(src='@/assets/curso/tema1/img15.png', alt='', class="w-100 h-100 object-fit-cover" style="margin-left: -10px;")
       
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
+      .col-xl-7.d-flex
+        .p-4.w-100.d-flex.align-items-center
+          .text-content
+            p Este último sistema de banda dentada ha sido adoptado casi por todos los fabricantes. Debido a dos razones: su bajo costo y porque no produce ruido en el motor. Su sistema es silencioso y de fácil reemplazo, el cual debe realizarse, dependiendo de su diseñador entre los 40.000 y 80.000 kilómetros de recorrido, salvo el criterio diferente o el tiempo probado y recomendado por el constructor de cada motor.
 
-      div(titulo="Titulo item 2")
+            p Con cualquier sistema de sincronización utilizado, el cigüeñal y el eje de levas disponen de unas marcas de referencia, para que los puntos indiquen el punto óptimo de funcionamiento del motor. Cuando se arma un motor o cuando requiere de mantenimiento o reemplazo, se debe seguir estas marcas de referencia, siendo posiblemente distintas en cada motor.
+
+    .row.mt-2
+      p.mt-2 Cuando no se tiene una marca señalada, se deben indicar estos puntos con marcas realizadas por cada técnico, para montar los ejes en la posición correcta.
+
+    .row.mt-4.justify-content-center
+      .col-lg-3
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-          figcaption Leyenda de la imagen
-    Separador
-    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
-      .row(titulo="Titulo item 1")
-        .col-md-6.mb-4.mb-md-0
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-      .row(titulo="Titulo item 2")
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-
-        .col-md-6.mb-4.mb-md-0
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    Separador
-    ImagenInfografica.color-primario
-      template(v-slot:imagen)
+          img(src='@/assets/curso/tema1/img16.png', alt='', style="width: 480px").m-auto
+      .col-5
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 4
+          span Muestra de los puntos con marcas realizadas
         figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-          figcaption Leyenda de la imagen
-      .tarjeta.color-acento-botones.p-3(x="20%" y="20%" numero="1")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+          img(src='@/assets/curso/tema1/img17.png', alt='La imagen muestra un sistema de distribución por banda dentada, con dos piñones de sincronización que corresponden al árbol de levas. Se observan señales de alineación, que son marcas de referencia utilizadas para sincronizar correctamente la distribución del motor. Estas marcas garantizan que las válvulas y los pistones trabajen en la secuencia adecuada, evitando problemas en el funcionamiento del motor.', style="width: 480px").m-auto
 
-      .tarjeta.color-acento-botones.p-3(x="50%" y="50%" numero="A")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
 
-      .tarjeta.color-acento-botones.p-3(x="70%" y="70%" numero="B")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-    Separador
-    ImagenInfograficaB.color-primario
-      template(v-slot:imagen)
-        figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-      div(x="20%" y="20%" tooltip="tooltip de max 35 caracteres" numero="1")
-        h5 titulo
-        p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-        p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-        p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-      div(x="50%" y="50%" tooltip="tooltip de max 35 caracteres")
-        h5.mb-2 titulo
-        p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-      div(x="70%" y="70%" tooltip="tooltip de max 35 caracteres")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-    Separador
-    TarjetaAudio.color-primario.mb-3(
-      texto="Texto de muestra  "
-      :audio="require('../assets/componentes/audios/audio-ej.mp3')"
-      @audio-hover="mostrarIndicadorTarjetaAudio = false"
-    )
-      .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-    TarjetaAudio.color-secundario.mb-3(
-      texto="Texto de muestra <br> Texto de muestra "
-      :audio="require('../assets/componentes/audios/audio-ej.mp3')"
-    )
-    Separador
-    .tarjeta.tarjeta--azul.p-4
-      SlyderA(tipo="b")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        .row.justify-content-center.align-items-center.my-lg-4
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    Separador
-    .tarjeta.tarjeta--gris.p-4
-      PasosB.color-acento-contenido
-        .row(titulo="")
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-        .row(titulo="")
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    Separador
-    .tarjeta.tarjeta--gris.p-4
-      LineaTiempoC.color-acento-contenido(text-small)
-        .row(titulo="Titulo 1")
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-        .row(titulo="Titulo 2")
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    Separador
-    SlyderF(columnas="col-lg-6 col-xl-4")
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-        h2.text-center FIRST
-        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-        h2.text-center 2
-        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-        h2.text-center 3
-        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-        h2.text-center 4
-        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-        h2.text-center 5
-        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-        h2.text-center 6
-        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-        h2.text-center 7
-        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-        h2.text-center LAST
-        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-    Separador
-    LineaTiempoD.color-primario
-      .row(numero="1" titulo="Praesent luctus")
-        .col-md-6.mb-4.mb-md-0
-          p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-      .row(numero="2" titulo="Praesent luctus")
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-        .col-md-6.mb-4.mb-md-0
-          p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-      .row(numero="3" titulo="Praesent luctus")
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-        .col-md-6.mb-4.mb-md-0
-          p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion. 
-    Separador
-    TabsA.color-acento-botones
-      .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 1")
-        h4 PASO 1: The splendor
-        p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-          strong user style sheets
-          |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-        p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-      .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 2")
-        h4 PASO 2: The splendor
-        .row
-          .col-xl-6.mb-4
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-          .col-xl-6
-            p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-              strong user style sheets
-              |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    Separador
-    TabsC.color-primario
-      .py-3.py-md-4(titulo="The splendor of the mystery")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h4 Celebrate your failures 1
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-      .py-3.py-md-4(titulo="Don’t lie to yourself")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-          .col-md-6
-            h4 Celebrate your failures 2
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion. 
-    Separador
-    TabsB.color-primario
-      .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/componentes/ej-04.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h4 Celebrate your failures 1
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-      .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require('@/assets/componentes/ej-04.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-          .col-md-6
-            h4 Celebrate your failures 2
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    Separador
-    LineaTiempoE.color-primario
-      .row(titulo="2014 - Present" subtitulo="Title, Company")
-        .col-lg-6.mb-4.mb-lg-0
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        .col-lg-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-      .row(titulo="2014 - Present" subtitulo="Title, Company")
-        .col-lg-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen      
-        .col-lg-6.mb-4.mb-lg-0
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    Separador
-    PasosA.color-primario.mb-5(tipo="n")
-      .row
-        .col-md-6.mb-4.mb-md-0
-          h3 Lorem ipsum dolor sit amet.
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-      .row
-        .col-md-6.mb-4.mb-md-0
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la Imagen
-        .col-md-6
-          h3 Nullam vulputate mauris eros, ut.
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-      .row
-        .col-md-6.mb-4.mb-md-0
-          h3 Duis laoreet est non ligula.
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-      .row
-        .col-md-6.mb-4.mb-md-0
-          h3 Duis laoreet est non ligula.
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-    Separador
-    p(data-aos="fade-left").mb-4 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    .row
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-          h3.text-center Intuition important
-          p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-secundario.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-          h3.text-center Intuition important
-          p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-      .col-sm-6.col-lg-3.mb-4.mb-sm-0
-        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-          h3.text-center Intuition important
-          p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-      .col-sm-6.col-lg-3
-        .tarjeta--boton.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-          h3.text-center Intuition important
-          p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-    Separador
-    .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-primario.p-5
-        .row.justify-content-center.mb-4
-          .col-6
-            figure
-              img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-        h2.text-center Celebrate your<br>failures
-        p To surpass others is fucking tough, if you only do as you are told you don’t have it in you to succeed. Think about all the possibilities. You’ve been placed in the crucial moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-      .col-md.tarjeta.color-acento-botones.p-5
-        .row.justify-content-center.mb-4
-          .col-6
-            figure
-              img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-        h2.text-center Sterility leads to<br>susceptibility
-        p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
-      .col-md.tarjeta.color-acento-contenido.text-white.p-5
-        .row.justify-content-center.mb-4
-          .col-6
-            figure
-              img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-        h2.text-center Sterility leads to<br>susceptibility
-        p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
-    Separador
-    .row
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 John Doe
-              p Lorem ipsum dolor sit amet, 
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 John Doe
-              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-      .col-sm-6.col-xl-3.mb-4.mb-sm-0
-        .tarjeta.tarjeta-slide.derecha.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 John Doe
-              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-      .col-sm-6.col-xl-3
-        .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 John Doe
-              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-    Separador
-    .row
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-primario.p-5
-          .tarjeta-numerada__numero
-            .h2 1
-          p.text-center 
-            b Ruta integral de atención en salud 
-          p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-secundario.p-5
-          .tarjeta-numerada__numero
-            .h2 2
-          p.text-center 
-            b Ruta integral de atención en salud 
-          p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-acento-contenido.p-5
-          .tarjeta-numerada__numero
-            .h2 3
-          p.text-center 
-            b Ruta integral de atención en salud 
-          p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-acento-botones.p-5
-          .tarjeta-numerada__numero
-            .h2 4
-          p.text-center 
-            b Ruta integral de atención en salud 
-          p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
- 
 </template>
 
 <script>

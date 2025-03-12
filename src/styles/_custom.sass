@@ -1,27 +1,54 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 3.0s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 18%
+    left: -20%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 23%
+    right: 5%
+  &-3
+    animation: float2 1.5s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    left: -30%
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateX(30px)
+  100%
+    transform: translateX(0px)
   
   
 .banner-principal .tarjeta
   background-position: left 50% !important
 
+.banner-principal__row 
+  width: 1320px
+  height: 508px
+  @media screen and (max-width: 1024px)
+    width: 100%
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
+  width: 324px !important
+  top: -3px
+  left: -10px
+  @media screen and (max-width: 1024px)
+    left: 10px
+
+.banner-principal__row .banner-principal__img
+  @media screen and ( max-width: $bp-max-lg )
+    background-image: url("../assets/curso/portada/fondo-banner-principal-tb.png") !important
+  @media screen and (max-width: $bp-max-sm)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-mv.png") !important
+
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important
@@ -31,4 +58,124 @@
 
 figcaption
   font-weight: normal
- 
+
+.bg
+  &-intro1
+    background-image: url(../assets/curso/intro/bg1.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-intro2
+    background-color: #BDD9FD
+    border-radius: 10px
+  &-t1-1
+    background-color: #D4D7FD
+    border-radius: 10px
+  &-t1-2
+    background-image: url(../assets/curso/tema1/bg1.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-t1-3 
+    background-image: url(../assets/curso/tema1/img6.png)
+    padding: 2rem;
+    height: 100%;
+    border-radius: 15px;
+    background-size: 100% auto
+  &-t1-4 
+    background-color: #F9EEAB
+    border-radius: 15px
+  &-t1-5 
+    background-color: #ffffff
+    border-radius: 15px
+    border: 2px solid #BDD9FD
+  &-t1-6
+    background-color: #D4D7FD
+  &-subtitulo
+    background-image: url(../assets/curso/tema1/bgicon.svg)
+    background-repeat: repeat-x
+    background-position: center
+  &-t1-7 
+    background-color: #DDD3C2;
+  &-t2-1
+    background-image: url(../assets/curso/tema2/bg1.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-t2-2
+    background-color: #F9EEAB
+  &-t2-3 
+    background-image: url(../assets/curso/tema2/img1.png)
+    padding: 2rem;
+    height: 100%;
+    border-radius: 15px;
+    background-size: 100% auto
+  &-t3-1
+    background-image: url(../assets/curso/tema3/bg1.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-t3-2 
+    background-color: #E5F0FE
+  &-t3-3
+    background-color: #F9EEAB
+    border-radius: 15px;
+  &-t3-4
+    background-image: url(../assets/curso/tema3/bg2.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-t3-5
+    background-image: url(../assets/curso/tema3/bg3.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-t3-6
+    background-image: url(../assets/curso/tema3/bg4.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-t3-7
+    background-image: url(../assets/curso/tema3/bg5.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-t3-8 
+    background-color: #E8EAFD
+  &-t4-1
+    background-image: url(../assets/curso/tema4/bg1.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-t5-1
+    background-image: url(../assets/curso/tema5/bg1.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-t5-2
+    background-image: url(../assets/curso/tema5/bg2.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-t5-3
+    background-image: url(../assets/curso/tema5/bg3.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-t5-4
+    background-image: url(../assets/curso/tema5/bg4.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-t5-5 
+    background-color: #F2EEE7
+  &-t5-6
+    background-image: url(../assets/curso/tema5/bg5.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+
+.target-with
+  height: 330px
+  @media screen and (max-width: $bp-max-sm)
+    height: 260px
