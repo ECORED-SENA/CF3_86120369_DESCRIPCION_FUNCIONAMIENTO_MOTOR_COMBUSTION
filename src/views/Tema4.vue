@@ -21,12 +21,12 @@
                           img(src='@/assets/curso/tema4/img1.png', alt='', style="width: 100px")
                         p Cada fabricante y diseñador de motores utilizará al sistema más moderno de propulsión y distribución de válvulas más apropiado, de acuerdo al diseño de todas y cada una de las partes de su motor. Buscará con todas estas nuevas tecnologías diseñar un motor con el mejor torque en todos los rangos de aceleración, una mayor potencia con el menor consumo de combustible, y sobre todo un motor que sea amigable con la Naturaleza, generando con estos atributos la menor cantidad de emisiones contaminantes.
 
-            .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+            .col-lg-5.mb-lg-0.mt-4(data-aos="fade-right")
               figure
                 img(src='@/assets/curso/tema4/img2.png', alt='', style="width: 480px").m-auto
 
           .row.justify-content-center.p-4.mt-4
-            .col-10
+            .col-lg-10.col-md-12
               .row.bg-t1-5.p-4.justify-content-center
                 .row.justify-content-center
                   .col-lg-5
@@ -34,7 +34,7 @@
                       figure
                         img(src='@/assets/curso/tema4/img3.png', alt='', style="width: 480px").m-auto
 
-                  .col-lg-6.p-4
+                  .col-lg-6.p-lg-4.p-2.mt-2
                     p Los fabricantes y diseñadores utilizan los sistemas de propulsión y distribución, según varias necesidades.
                     figure
                       img(src='@/assets/curso/tema4/img4.png', alt='', style="width: 480px").m-auto

@@ -23,11 +23,11 @@
 
                         p #[b ¡Muchos éxitos en esta experiencia de aprendizaje!]
 
-            .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+            .col-lg-5.mb-4.mb-lg-0.mt-4(data-aos="fade-right")
               figure
                 img(src='@/assets/curso/intro/img2.png', alt='', style="width: 480px").m-auto
 
-          figure.mt-4
+          figure.mt-4.d-none.d-lg-block
             img(src='@/assets/curso/intro/img3.png', alt='').m-auto 
                 
 

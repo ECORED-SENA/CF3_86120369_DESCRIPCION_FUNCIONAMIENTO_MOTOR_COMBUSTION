@@ -18,11 +18,11 @@
         .p-5
           .row.justify-content-center
             .row
-              .col-4
+              .col-lg-4.d-none.d-lg-block
                 figure
                   img(src='@/assets/curso/tema5/img1.png', alt='', style="width: 480px").m-auto
 
-              .col-8
+              .col-lg-8
                 .row.bg-t3-8.p-4
                   .col-md-auto.d-none.d-lg-block
                     figure
@@ -65,10 +65,10 @@
 
 
           .row.justify-content-center.mt-5
-            .col-3
+            .col-lg-3.d-none.d-lg-block
               figure
                 img(src='@/assets/curso/tema5/img6.png', alt='', style="width: 400px")
-            .col-5
+            .col-lg-5
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Figura 13
                 span Calibración de válvula mayor a la solicitada
@@ -82,7 +82,7 @@
     .row.bg-t5-2
       .col-12
         .p-5
-          p La calibración de las válvulas puede realizarse de dos formas:
+          p.ajuste-espacio La calibración de las válvulas puede realizarse de dos formas:
 
           .row.mt-4
             .row.mb-2.ms-0.mt-4
@@ -97,15 +97,15 @@
           p.mt-4 Se puede hacer utilizando un tornillo y una contratuerca de ajuste, también puede ser con una excéntrica, un perno hexágono en el interior del propulsor, una ‘pastilla o lámina calibrada’ o un tornillo de ajuste cónico en el propulsor, entre las formas más comunes que se han diseñado en los motores de combustión.
 
           .row.justify-content-center
-            .col-10
+            .col-lg-10
               .row.justify-content-center.mt-4.bg-t1-5.p-4
-                .col-6
+                .col-lg-6
                   .titulo-sexto.color-acento-contenido
                     h5 Figura 14
                     span Calibración mecánica con tornillo
                   figure
                     img(src='@/assets/curso/tema5/img8.png', alt='', style="width: 400px")
-                .col-6
+                .col-lg-6.mt-4
                   .titulo-sexto.color-acento-contenido
                     h5 Figura 15
                     span Calibración mecánica con perno de regulación
@@ -125,13 +125,13 @@
           p.mt-4 Basado en la utilización de propulsores o tanques hidráulicos, que son formados con dos pistones uno dentro del otro, los cuales, al llenarse con aceite de la misma lubricación, forman una almohadilla que permite mantener la holgura exacta. Este sistema de calibración o auto ajuste tiene la ventaja de que el propulsor hidráulico se va ajustando automáticamente con el desgaste o asentamiento de los elementos, tales como las válvulas, los asientos, los ejes, balancines, levas, etc.
 
           .row.justify-content-center.mt-4
-            .col-5
+            .col-lg-5
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Figura 16
                 span  Calibración automática
               figure
                 img(src='@/assets/curso/tema5/img10.png', alt='', style="width: 400px")
-            .col-4
+            .col-4.d-none.d-lg-block
               figure
                 img(src='@/assets/curso/tema5/img11.png', alt='', style="width: 400px")
 
@@ -141,9 +141,9 @@
 
     .row.justify-content-center.bg-t5-3
       .col-12
-        .p-5
+        .p-5.ajuste-espacio
           .row.align-items-center
-            .col-7
+            .col-lg-7
               .row
                 .col-md-auto.d-none.d-lg-block
                   figure
@@ -153,20 +153,20 @@
               .row.bg-t1-7.p-4.mt-4
                 p El tornillo del balancín sirve además de apoyo para la varilla, la misma que al recibir el impulso del propulsor, obliga a pivotear al balancín. Este tornillo se puede ajustar o desajustar para obtener la holgura o calibración recomendada por el fabricante y luego de tener esta medida, se ajusta la contra tuerca para fijarlo.
               
-            .col-5
+            .col-lg-5.mt-4
               figure
                 img(src='@/assets/curso/tema5/img13.png', alt='', style="width: 480px").m-auto
 
             p.mt-4 Partes de este sistema de propulsión, uno de ellos desde el eje de levas en la parte baja del bloque de cilindros y otro gráfico con el eje de levas en la culata, pero con balancines. La holgura se mide con un calibrador de láminas.
 
             .row.justify-content-center.mt-4
-              .col-5
+              .col-lg-5
                 .titulo-sexto.color-acento-contenido.mb-3
                   h5 Figura 17
                   span Calibración de válvulas con tornillo y tuerca
                 figure
                   img(src='@/assets/curso/tema5/img14.png', alt='', style="width: 380px")
-              .col-4
+              .col-4.d-none.d-lg-block
                 figure
                   img(src='@/assets/curso/tema5/img15.png', alt='', style="width: 300px")
 
@@ -176,8 +176,8 @@
 
     .row.bg-t5-4
       .col-12
-        .p-5
-          .row.justify-content-center.mb-5.align-items-center
+        .p-5.ajuste-espacio
+          .row.justify-content-center.mb-lg-5.mb-0.align-items-center
             .col-lg-7(data-aos="fade-down")
               .row.d-flex.align-items-stretch
                 .col-xl-6.d-flex
@@ -188,7 +188,7 @@
                     img(src='@/assets/curso/tema5/img16.png', alt='', class="w-100 h-100 object-fit-cover" style="margin-left: 10px; width:")
                 
             .col-lg-5.p-4
-              figure.mt-5
+              figure.mt-lg-5
                 img(src="@/assets/curso/tema5/img17.png", alt="", style="width: 120px")
    
               p Este balancín no dispone del tornillo y la contratuerca, han sido reemplazados por un rodillo excéntrico en este extremo.
@@ -197,11 +197,11 @@
 
         .row.justify-content-center
           .row
-            .col-4
+            .col-4.d-none.d-lg-block
               figure
                 img(src='@/assets/curso/tema5/img18.png', alt='', style="width: 480px").m-auto
 
-            .col-8
+            .col-lg-8
               .row.bg-t2-2.p-4
                 .row
                   .col-md-auto.d-none.d-lg-block
@@ -211,7 +211,7 @@
                     p.mb-0 El técnico entonces, deberá girar la tuerca de la excéntrica para obtener la holgura recomendada por el fabricante del motor, en ocasiones podrá recomendar tomar la holgura entre el eje de levas y el balancín; es decir, en el otro extremo de la medición.
 
                 .row.justify-content-center.mt-4
-                  .col-5
+                  .col-lg-5
                     .titulo-sexto.color-acento-contenido.mb-3
                       h5 Figura 18
                       span Calibración de las válvulas con excéntrica
@@ -234,22 +234,22 @@
                     img(src='@/assets/curso/tema5/img21.png', alt='', style="width: 100px")
                   p Otro diseño interesante que se puede encontrar en los motores, es cuando el eje de levas, al estar instalado en la parte superior de las válvulas, una palanca basculante es la encargada de recibir este impulso y se encarga de empujar a la válvula. En este sistema se utiliza un perno de apoyo y de pivoteo de la palanca basculante, pero este apoyo es regulable, ya que está roscado en la culata.
 
-      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+      .col-lg-5.mb-4.mb-lg-0.mt-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema5/img22.png', alt='', style="width: 480px").m-auto
 
 
     .row.bg-t5-6
       .col-12
-        .p-5
+        .p-5.ajuste-espacio
           .row.justify-content-center
-            .col-10
+            .col-lg-10
               .p-4
                 .row.justify-content-center.mt-4.bg-t1-5.p-4
-                  .col-6
+                  .col-6.d-none.d-lg-block
                     figure
                       img(src='@/assets/curso/tema5/img23.png', alt='', style="width: 400px")
-                  .col-6
+                  .col-lg-6
                     p Para obtener la calibración recomendada por el fabricante, se debe desatornillar o atornillar este perno de apoyo, para que la palanca basculante suba o baje respectivamente, y de esta manera esta palanca se acerque o se aleje de la leva y con ello se reduzca o aumente esta holgura.
 
                     p En algunos motores últimos, este apoyo se ha reemplazado por un sistema de propulsión hidráulico, para que la distancia u holgura que regulábamos de manualmente se realice de forma automática.
@@ -261,13 +261,13 @@
               p.mt-4 Por esta razón, los propulsores mecánicos que se apoyan sobre las levas, al propulsar a las varillas están empujando a cada balancín y este finalmente a la válvula.
 
               .row.justify-content-center.mt-4
-                .col-5
+                .col-lg-5
                   .titulo-sexto.color-acento-contenido.mb-3
                     h5 Figura 19
                     span  Calibración de las válvulas con apoyo regulable
                   figure
                     img(src='@/assets/curso/tema5/img24.png', alt='', style="width: 400px")
-                .col-5
+                .col-5.d-none.d-lg-block
                   figure
                     img(src='@/assets/curso/tema5/img25.png', alt='', style="width: 480px")
                 

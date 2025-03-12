@@ -21,10 +21,10 @@
 
     .row
       .col-lg-7
-        .row.justify-content-center.bg-t1-1.align-items-center
-          .col-lg-3.d-flex.justify-content-center.align-items-center
+        .row.justify-content-center.bg-t1-1.align-items-center.p-4
+          .col-lg-3
             figure
-              img(src="@/assets/curso/tema1/img2.png").m-auto
+              img(src="@/assets/curso/tema1/img2.png" style="width: 120px;").m-auto
           .col-lg-9
             p Cuando el eje de levas con el cigüeñal está cerca, se dice que se utiliza engranajes o piñones en toma constante. Para evitar ruido en la trasmisión del movimiento se suele acudir a piñones de dientes inclinados, piñones de fibras o de tejido duro.
         
@@ -35,10 +35,10 @@
           img(src='@/assets/curso/tema1/img3.png', alt='', style="width: 480px").m-auto
 
     .row.mt-4.justify-content-center
-      .col-lg-3
+      .col-3.col-md-auto.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema1/img4.png', alt='', style="width: 480px").m-auto
-      .col-5
+      .col-lg-5.col-md-12
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 1
           span Accionamiento del eje de levas por piñones  
@@ -57,25 +57,25 @@
             .col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
               .p-4.h-100
                 p El sistema de mando con cadena metálica se utiliza con frecuencia cuando las distancias entre los dos ejes es mayor, a pesar de que el eje de levas está en el bloque de cilindros o en la culata. Para garantizar que la cadena esté permanente templada, se diseña un templador y unas pistas de deslizamiento de la cadena, que actúan como guía, así se evita el ‘chasquido’ producido con la transmisión del movimiento.
-            .col-md-6.col-lg-4(data-aos="fade-left")
+            .col-md-6.col-lg-4.mt-4(data-aos="fade-left")
               .p-4.bg-t1-3.h-100
                 figure.mb-3(style="visibility: hidden;") 
                   img(src='@/assets/curso/tema1/img6.png', alt='', style="width: 120px;").target-with
-            .col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
+            .col-md-6.col-lg-4.mb-4.mb-lg-0.mt-4(data-aos="fade-down")
               .p-4.bg-t1-4.h-100
                 figure
                   img(src='@/assets/curso/tema1/img7.png', alt='', style="width: 140px")
                 p Ahora, el sistema de cadena tiene la desventaja de contar entre sus partes móviles con mucha masa o peso, lo que reduce de alguna forma la potencia del motor donde se encuentra instalado.
 
           .row.justify-content-center.p-4.mt-4
-            .col-10
+            .col-lg-10.col-md-12
               .row.bg-t1-5.p-4.justify-content-center
                 p Esta clase de sistema está exento de mantenimiento durante la vida útil del motor y es bastante confiable, por eso los fabricantes suele utilizarlo seguido para sus motores.
                 .row.justify-content-center
-                  .col-lg-4
+                  .col-lg-4.d-none.d-lg-block
                     figure
                       img(src='@/assets/curso/tema1/img8.png', alt='', style="width: 480px").m-auto
-                  .col-lg-6
+                  .col-lg-6.col-md-12
                     .titulo-sexto.color-acento-contenido.mb-3
                       h5 Figura 2
                       span Accionamiento del eje levas por cadena metálica
@@ -99,7 +99,7 @@
           .col-xl.d-flex
             .p-4.w-100.d-flex.align-items-center
               p.mb-0 Para compensar este defecto del posible ruido que produce la cadena durante la transmisión y a reducir el peso de este elemento transmisor, se han diseñado sistemas de transmisión por banda dentada, banda construida de fibras especiales y de goma, cuyas fibras longitudinales evitan su variación o rotura.
-      .col-lg-5
+      .col-lg-5.mt-4
         figure
           img(src='@/assets/curso/tema1/img11.png', alt='', style="width: 480px").m-auto
 
@@ -150,10 +150,10 @@
       p.mt-2 Cuando no se tiene una marca señalada, se deben indicar estos puntos con marcas realizadas por cada técnico, para montar los ejes en la posición correcta.
 
     .row.mt-4.justify-content-center
-      .col-lg-3
+      .col-lg-3.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema1/img16.png', alt='', style="width: 480px").m-auto
-      .col-5
+      .col-lg-5.col-md-10
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 4
           span Muestra de los puntos con marcas realizadas
