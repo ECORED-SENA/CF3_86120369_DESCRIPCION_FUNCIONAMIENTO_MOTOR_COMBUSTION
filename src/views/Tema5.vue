@@ -10,10 +10,10 @@
     p Estudiemos ahora el tema correspondiente a ajustes y graduación.
 
     separador
-    #t_5_1.titulo-segundo.color-primario
+    #t_5_1.titulo-segundo.color-acento-contenido
       h2 5.1 Juego y calibración de válvulas
 
-    .row.bg-t5-1
+    .row.bg-t5-1.ajuste-espacio
       .col-12
         .p-5
           .row.justify-content-center
@@ -76,7 +76,7 @@
                 img(src='@/assets/curso/tema5/img7.png', alt='', style="width: 480px")
 
     separador
-    #t_5_2.titulo-segundo.color-primario
+    #t_5_2.titulo-segundo.color-acento-contenido
       h2 5.2 Formas calibración de las válvulas
 
     .row.bg-t5-2
@@ -84,7 +84,7 @@
         .p-5
           p.ajuste-espacio La calibración de las válvulas puede realizarse de dos formas:
 
-          .row.mt-4
+          .row
             .row.mb-2.ms-0.mt-4
               .col-auto.bg-subtitulo(data-aos="fade-left")
                 .row.align-items-center
@@ -136,7 +136,7 @@
                 img(src='@/assets/curso/tema5/img11.png', alt='', style="width: 400px")
 
     separador
-    #t_5_3.titulo-segundo.color-primario
+    #t_5_3.titulo-segundo.color-acento-contenido
       h2 5.3 Calibración de las válvulas con tornillo y tuerca
 
     .row.justify-content-center.bg-t5-3
@@ -171,29 +171,31 @@
                   img(src='@/assets/curso/tema5/img15.png', alt='', style="width: 300px")
 
     separador
-    #t_5_4.titulo-segundo.color-primario
+    #t_5_4.titulo-segundo.color-acento-contenido
       h2 5.4 Calibración de las válvulas con excéntrica
 
     .row.bg-t5-4
       .col-12
         .p-5.ajuste-espacio
-          .row.justify-content-center.mb-lg-5.mb-0.align-items-center
-            .col-lg-7(data-aos="fade-down")
-              .row.d-flex.align-items-stretch
-                .col-xl-6.d-flex
-                  .p-4.w-100.d-flex.align-items-center
-                    p.mb-0 Después de ver el diseño anterior, es posible comparar entre el de balancines que reciben el impulso desde una varilla propulsora con este sistema en el cual el eje de levas, al estar instalado en la culata, impulsa directamente al balancín desde abajo y este último que se encarga, al pivotear en su eje, de impulsar a la válvula del motor.
-                .col-xl-6.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
-                  figure.m-0.p-0.w-100.h-100.d-flex
-                    img(src='@/assets/curso/tema5/img16.png', alt='', class="w-100 h-100 object-fit-cover" style="margin-left: 10px; width:")
-                
-            .col-lg-5.p-4
-              figure.mt-lg-5
-                img(src="@/assets/curso/tema5/img17.png", alt="", style="width: 120px")
-   
-              p Este balancín no dispone del tornillo y la contratuerca, han sido reemplazados por un rodillo excéntrico en este extremo.
+          .row.justify-content-center.align-items-center
+            .col-lg-8
+              p Después de ver el diseño anterior, es posible comparar entre el de balancines que reciben el impulso desde una varilla propulsora con este sistema en el cual el eje de levas, al estar instalado en la culata, impulsa directamente al balancín desde abajo y este último que se encarga, al pivotear en su eje, de impulsar a la válvula del motor.
 
-              p Cuando el rodillo excéntrico gira, su borde de ataque se puede acercar o alejar del vástago de la válvula, reduciéndose o aumentándose su holgura o calibración.
+              .row.justify-content-center.align-items-center.bg-t5-7.p-3
+                .col-auto
+                  figure
+                    img(src="@/assets/curso/tema5/img17.png", alt="", style="width: 87px").m-auto
+                .col
+                  p Este balancín no dispone del tornillo y la contratuerca, han sido reemplazados por un rodillo excéntrico en este extremo.
+
+              p.mt-3 Cuando el rodillo excéntrico gira, su borde de ataque se puede acercar o alejar del vástago de la válvula, reduciéndose o aumentándose su holgura o calibración.
+
+
+            .col-lg-4.d-none.d-lg-block
+              figure
+                img(src='@/assets/curso/tema5/img16.png', alt='', style="width: 400px").m-auto
+
+
 
         .row.justify-content-center
           .row
@@ -220,7 +222,7 @@
               
 
     separador
-    #t_5_5.titulo-segundo.color-primario
+    #t_5_5.titulo-segundo.color-acento-contenido
       h2 5.5 Calibración de las válvulas con apoyo regulable
 
     .row.align-items-center.justify-content-center.mt-2(data-aos="fade-down")

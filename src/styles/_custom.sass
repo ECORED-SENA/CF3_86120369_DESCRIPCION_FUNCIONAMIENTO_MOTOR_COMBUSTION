@@ -2,16 +2,19 @@
   &-1
     animation: float1 3.0s ease-in-out infinite alternate
     position: absolute
+    width: 40%
     top: 18%
     left: -20%
   &-2
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
+    width: 40%
     top: 23%
     right: 5%
   &-3
     animation: float2 1.5s ease-in-out infinite alternate
     position: absolute
+    width: 40%
     top: 60%
     left: -30%
 
@@ -26,28 +29,22 @@
     transform: translateX(30px)
   100%
     transform: translateX(0px)
-  
+
   
 .banner-principal .tarjeta
   background-position: left 50% !important
 
-.banner-principal__row 
-  width: 1320px
-  height: 508px
-  @media screen and (max-width: 1024px)
-    width: 100%
 .banner-principal__row .banner-principal__img
-  width: 324px !important
-  top: -3px
-  left: -10px
-  @media screen and (max-width: 1024px)
-    left: 10px
+  width: 260px !important
+  padding-bottom: 0px !important
 
-.banner-principal__row .banner-principal__img
+.banner-principal .tarjeta
   @media screen and ( max-width: $bp-max-lg )
     background-image: url("../assets/curso/portada/fondo-banner-principal-tb.png") !important
-  @media screen and (max-width: $bp-max-sm)
+  @media screen and ( max-width: $bp-max-sm )
     background-image: url("../assets/curso/portada/fondo-banner-principal-mv.png") !important
+    background-position: center bottom !important
+
 
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
@@ -95,6 +92,8 @@ figcaption
     background-image: url(../assets/curso/tema1/bgicon.svg)
     background-repeat: repeat-x
     background-position: center
+    @media screen and ( max-width: $bp-max-sm )
+      background-repeat: repeat
   &-t1-7 
     background-color: #DDD3C2;
   &-t2-1
@@ -142,11 +141,18 @@ figcaption
     margin-inline: -3.2rem !important
   &-t3-8 
     background-color: #E8EAFD
+  &-t3-9 
+    background-color: #FCF7D5
+  &-t3-10 
+    background-color: #E5F0FE
   &-t4-1
     background-image: url(../assets/curso/tema4/bg1.png)
     background-repeat: no-repeat
     background-size: cover
     margin-inline: -3.2rem !important
+  &-t4-2 
+    background-color: #E5F0FE
+    border-radius: 10px
   &-t5-1
     background-image: url(../assets/curso/tema5/bg1.png)
     background-repeat: no-repeat
@@ -174,6 +180,9 @@ figcaption
     background-repeat: no-repeat
     background-size: cover
     margin-inline: -3.2rem !important
+  &-t5-7 
+    background-color: #DDD3C2
+    border-radius: 10px
 
 .target-with
   height: 330px
@@ -181,6 +190,7 @@ figcaption
     height: 260px
 
 .ajuste-espacio
+  margin-top: -50px
   @media screen and (max-width: $bp-max-sm)
     margin-top: -50px
   

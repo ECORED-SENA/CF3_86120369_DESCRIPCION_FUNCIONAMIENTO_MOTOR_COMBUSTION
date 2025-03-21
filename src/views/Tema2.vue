@@ -10,7 +10,7 @@
     p Conozcamos cada uno de estos diagramas.
     
     separador
-    #t_2_1.titulo-segundo.color-primario
+    #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1 Diagrama estándar de apertura de las válvulas
     .row.justify-content-center.bg-t2-1
       .col-12
@@ -18,10 +18,10 @@
           .row.justify-content-center.align-items-center
             .col-lg-8(data-aos="fade-down")
               .row.d-flex.align-items-stretch.bg-t2-2
-                .col-xl-6.d-flex
+                .col-lg-6.d-flex
                   .p-4.w-100.d-flex.align-items-center
                     p.mb-0 El perfil de cada leva, ya sea para la válvula de admisión o para la válvula de escape, se encargará de impulsar a la válvula correspondiente durante un cierto ángulo de giro, en coordinación o de forma sincronizada con el eje cigüeñal, para que podamos obtener los cuatro ciclos del motor.
-                .col-xl-6.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+                .col-lg-6.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                   figure.m-0.p-0.w-100.h-100.d-flex
                     img(src='@/assets/curso/tema2/img1.png', alt='', class="w-100 h-100 object-fit-cover" style="margin-left: 10px; width:")
                 
@@ -52,7 +52,7 @@
 
 
     separador
-    #t_2_2.titulo-segundo.color-primario
+    #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2 Diagrama mejorado de apertura de las válvulas
 
     .row.justify-content-center.mb-5.align-items-center
@@ -65,7 +65,7 @@
           .col-xl-9.d-flex
             .p-3.w-100.d-flex.align-items-center
               p.mb-0 El eje de levas estándar de un motor de cuatro ciclos permite un buen llenado del cilindro y una suficiente evacuación de los gases combustionados. Pero en motores que necesitan mayor potencia, además de diseñar de mejor manera cada una de sus partes, utilizando materiales y sistemas más modernos y eficientes, se puede instalar en el motor unos ejes de levas que permitan una óptima respiración, diseñando un ángulo mayor de las levas o modificando su perfil de ataque.
-      .col-lg-5.mt-4
+      .col-lg-5.mt-4.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema2/img6.png', alt='', style="width: 480px").m-auto
 

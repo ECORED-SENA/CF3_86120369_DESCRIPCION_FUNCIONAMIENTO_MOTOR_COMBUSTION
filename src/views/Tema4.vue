@@ -14,12 +14,12 @@
             .col-lg-7(data-aos="fade-left")
               .row
                 .col-12.align-items-center.h-100
-                  .p-4.bg-intro2
+                  .p-4.bg-t4-2
                     .row.align-items-center.mb-3
                       .col-md-12
                         figure
-                          img(src='@/assets/curso/tema4/img1.png', alt='', style="width: 100px")
-                        p Cada fabricante y diseñador de motores utilizará al sistema más moderno de propulsión y distribución de válvulas más apropiado, de acuerdo al diseño de todas y cada una de las partes de su motor. Buscará con todas estas nuevas tecnologías diseñar un motor con el mejor torque en todos los rangos de aceleración, una mayor potencia con el menor consumo de combustible, y sobre todo un motor que sea amigable con la Naturaleza, generando con estos atributos la menor cantidad de emisiones contaminantes.
+                          img(src='@/assets/curso/tema4/img1.svg', alt='', style="width: 87px")
+                        p.mt-2 Cada fabricante y diseñador de motores utilizará al sistema más moderno de propulsión y distribución de válvulas más apropiado, de acuerdo al diseño de todas y cada una de las partes de su motor. Buscará con todas estas nuevas tecnologías diseñar un motor con el mejor torque en todos los rangos de aceleración, una mayor potencia con el menor consumo de combustible, y sobre todo un motor que sea amigable con la Naturaleza, generando con estos atributos la menor cantidad de emisiones contaminantes.
 
             .col-lg-5.mb-lg-0.mt-4(data-aos="fade-right")
               figure

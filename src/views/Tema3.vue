@@ -40,7 +40,7 @@
           .col-lg-5
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 7
-              span  En el momento en que el cigüeñal giraba, el eje de levas impulsaba hacia arriba a las válvulas, abriéndolas de su asiento
+              span  Válvulas y eje de levas en el bloque de cilindros
             figure
               img(src='@/assets/curso/tema3/img2.png', alt='La imagen muestra un esquema del proceso de admisión en un motor de combustión interna, destacando el flujo de aire y combustible hacia la cámara de combustión.', style="width: 300px").m-auto
           .col-lg-4.d-none.d-lg-block
@@ -148,20 +148,24 @@
       .col-12
         .p-4
           .row.justify-content-center.align-items-center
-            .col-lg-8(data-aos="fade-down")
-              .row.d-flex.align-items-stretch.bg-t2-2
-                .col-xl-6.d-flex
-                  .p-4.w-100.d-flex.align-items-center
-                    p.mb-0 Otro sistema que es utilizado y bastante común en los motores modernos, es cuando el eje de levas transmite su movimiento hasta las válvulas por medio de balancines, similares a los balancines que se utilizaban con motores cuyo eje de levas estaba instalado en el bloque de cilindros.
-                .col-xl-6.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+            .col-lg-12(data-aos="fade-down")
+              .row.d-flex.align-items-stretch.bg-t3-9
+                .col-lg-8.p-5
+                  p Otro sistema que es utilizado y bastante común en los motores modernos, es cuando el eje de levas transmite su movimiento hasta las válvulas por medio de balancines, similares a los balancines que se utilizaban con motores cuyo eje de levas estaba instalado en el bloque de cilindros.
+                  .row.align-items-center.justify-content-center
+                    .col-2
+                      figure
+                        img(src="@/assets/curso/tema3/img15.png", alt="", style="width: 87px")
+                    .col-10
+                      p Así, la leva empuja a uno de los extremos del balancín, el mismo que pivotea en su eje y el otro extremo se encarga de empujar a la válvula.
+
+                    
+                    
+                .col-lg-4.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                   figure.m-0.p-0.w-100.h-100.d-flex
                     img(src='@/assets/curso/tema3/img14.png', alt='', class="w-100 h-100 object-fit-cover" style="margin-left: 10px; width:")
                 
-            .col-lg-4.p-4
-              figure.mt-5
-                img(src="@/assets/curso/tema3/img15.png", alt="", style="width: 120px")
-              p Así, la leva empuja a uno de los extremos del balancín, el mismo que pivotea en su eje y el otro extremo se encarga de empujar a la válvula.
-
+              
     .row.justify-content-center
       .row
         .col-lg-4
@@ -210,18 +214,18 @@
     .row.bg-t3-7
       .col-12
         .p-5
-          .row.align-items-center.justify-content-center.mt-2(data-aos="fade-down")
+          .row.align-items-center.justify-content-center(data-aos="fade-down")
             .col-lg-7(data-aos="fade-left")
               .row
                 .col-12.align-items-center.h-100
-                  .p-4.bg-intro2
+                  .p-4.bg-t3-10
                     .row.align-items-center.mb-3
                       .col-md-12
                         figure
-                          img(src='@/assets/curso/tema3/img21.png', alt='', style="width: 100px")
-                        p Para transmitir el movimiento de válvulas en los sistemas anteriormente explicados, se han necesitado de varios elementos, como propulsores, varillas empujadoras, ejes de balancines, balancines y otros, elementos que tienen cierto peso o masa, con lo cual se producen fuerzas de inercia durante la apertura y el cierre de válvulas, movimientos muy rápidos, en especial con altas revoluciones del motor.
+                          img(src='@/assets/curso/tema3/img21.png', alt='', style="width: 87px")
+                        p.mt-2 Para transmitir el movimiento de válvulas en los sistemas anteriormente explicados, se han necesitado de varios elementos, como propulsores, varillas empujadoras, ejes de balancines, balancines y otros, elementos que tienen cierto peso o masa, con lo cual se producen fuerzas de inercia durante la apertura y el cierre de válvulas, movimientos muy rápidos, en especial con altas revoluciones del motor.
 
-            .col-lg-5.mb-4.mb-lg-0.mt-4(data-aos="fade-right")
+            .col-lg-5.mb-4.mb-lg-0.mt-2.mt-lg-0(data-aos="fade-right")
               figure
                 img(src='@/assets/curso/tema3/img22.png', alt='', style="width: 480px").m-auto
 
@@ -231,7 +235,7 @@
               .row.bg-t1-5.p-4.justify-content-center
                 p Este ‘desgaste de energía’ para mover estas partes, disminuye un cierto porcentaje la potencia efectiva del motor, por lo que se han buscado sistemas de transmisión que reduzcan o eviten la utilización de estas partes móviles de transmisión del empuje de las levas, hacia las válvulas.
                 .row.justify-content-center
-                  .col-lg-6
+                  .col-lg-6.col-md-12
                     .row.bg-t3-8.p-lg-5.p-2
                       p Se han diseñado sistemas de empuje directamente desde el eje de levas hasta las válvulas, utilizando solamente propulsores. Con ello, el movimiento es directo y las fuerzas de inercia disminuyen, además de que no se requieren partes adicionales para ello.
                   .col-lg-6.mt-4

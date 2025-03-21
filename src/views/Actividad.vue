@@ -63,13 +63,13 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Piñones',
-              esCorrecta: true,
+              texto: 'Piñones.',
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto: 'Banda dentada.',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'c',

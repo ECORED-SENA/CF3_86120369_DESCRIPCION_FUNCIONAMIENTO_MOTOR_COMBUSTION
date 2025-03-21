@@ -22,11 +22,11 @@
     .row
       .col-lg-7
         .row.justify-content-center.bg-t1-1.align-items-center.p-4
-          .col-lg-3
+          .col-auto
             figure
               img(src="@/assets/curso/tema1/img2.png" style="width: 120px;").m-auto
           .col-lg-9
-            p Cuando el eje de levas con el cigüeñal está cerca, se dice que se utiliza engranajes o piñones en toma constante. Para evitar ruido en la trasmisión del movimiento se suele acudir a piñones de dientes inclinados, piñones de fibras o de tejido duro.
+            p.mb-0 Cuando el eje de levas con el cigüeñal está cerca, se dice que se utiliza engranajes o piñones en toma constante. Para evitar ruido en la trasmisión del movimiento se suele acudir a piñones de dientes inclinados, piñones de fibras o de tejido duro.
         
         p.mt-4 El piñón del cigüeñal engrana con el del eje de levas, teniendo este último el doble del número de dientes que el piñón del cigüeñal, para que la relación 2:1 se mantenga, a pesar de que se podría tener un piñón intermedio, cuando los dos ejes están más alejados entre sí.
 
@@ -37,7 +37,7 @@
     .row.mt-4.justify-content-center
       .col-3.col-md-auto.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/tema1/img4.png', alt='', style="width: 480px").m-auto
+          img(src='@/assets/curso/tema1/img4.png', alt='', style="height: 460px").m-auto
       .col-lg-5.col-md-12
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 1
@@ -57,11 +57,11 @@
             .col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
               .p-4.h-100
                 p El sistema de mando con cadena metálica se utiliza con frecuencia cuando las distancias entre los dos ejes es mayor, a pesar de que el eje de levas está en el bloque de cilindros o en la culata. Para garantizar que la cadena esté permanente templada, se diseña un templador y unas pistas de deslizamiento de la cadena, que actúan como guía, así se evita el ‘chasquido’ producido con la transmisión del movimiento.
-            .col-md-6.col-lg-4.mt-4(data-aos="fade-left")
+            .col-md-6.col-lg-4.mt-4.d-none.d-lg-block(data-aos="fade-left")
               .p-4.bg-t1-3.h-100
                 figure.mb-3(style="visibility: hidden;") 
                   img(src='@/assets/curso/tema1/img6.png', alt='', style="width: 120px;").target-with
-            .col-md-6.col-lg-4.mb-4.mb-lg-0.mt-4(data-aos="fade-down")
+            .col-md-6.col-lg-4.mb-4.mb-lg-0.mt-4
               .p-4.bg-t1-4.h-100
                 figure
                   img(src='@/assets/curso/tema1/img7.png', alt='', style="width: 140px")
@@ -92,7 +92,7 @@
     .row.justify-content-center.mb-5.align-items-center
       .col-lg-7(data-aos="fade-down")
         .row.d-flex.align-items-stretch.bg-t1-6
-          .col-xl-auto.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+          .col-lg-4.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
             figure.m-0.p-0.w-100.h-100.d-flex
               img(src='@/assets/curso/tema1/img10.png', alt='', class="w-100 h-100 object-fit-cover" style="margin-left: -10px;")
           
@@ -132,7 +132,6 @@
                 img(src='@/assets/curso/tema1/icon1.svg', alt='', style='width: 60px')
             .col
               h3.mb-0(style="color:white") Ventajas de la banda dentada frente a otros sistemas
-
 
     .row.d-flex.align-items-stretch.bg-t1-7 
       .col-xl-5.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
