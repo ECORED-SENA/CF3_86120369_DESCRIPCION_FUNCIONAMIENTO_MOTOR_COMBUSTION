@@ -12,9 +12,9 @@
     separador
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1 Diagrama estándar de apertura de las válvulas
-    .row.justify-content-center.bg-t2-1
+    .row.justify-content-center.bg-t2-1.ajuste-espacio
       .col-12
-        .p-4
+        .p-5
           .row.justify-content-center.align-items-center
             .col-lg-8(data-aos="fade-down")
               .row.d-flex.align-items-stretch.bg-t2-2
@@ -25,18 +25,18 @@
                   figure.m-0.p-0.w-100.h-100.d-flex
                     img(src='@/assets/curso/tema2/img1.png', alt='', class="w-100 h-100 object-fit-cover" style="margin-left: 10px; width:")
                 
-            .col-lg-4.p-4
+            .col-lg-4.p-lg-4.p-md-0.mt-4.mt-lg-0
               p La válvula de admisión se abre aproximadamente entre unos 15° hasta 45° antes de que el pistón llegue al PMS; durante la etapa de escape y se cierra entre 35° hasta 75° después del PMI. Es decir, cuando está subiendo el pistón en la etapa de compresión. Estos dos ángulos, el de anticipo a la apertura y de retraso al cierre, sumados a los 180° entre el PMS y el PMI sumarán en un motor estándar aproximadamente unos 235° hasta 245° de promedio, tiempo suficiente para que el motor pueda aspirar la mezcla aire y combustible en un motor a gasolina.
 
           .row.justify-content-center.align-items-center
-            .col-lg-4
+            .col-lg-4.d-none.d-lg-block
               figure
                 img(src='@/assets/curso/tema2/img2.png', alt='').m-auto
-            .col-lg-8.mt-3
+            .col-lg-8.mt-3.mt-md-2.p-md-0
               p De igual manera, la válvula de escape se abre (en un motor estándar) aproximadamente entre unos 35° hasta 75° antes del PMI, al final de la etapa de trabajo y se cierra entre 15° hasta 45° después del PMS, es decir cuando está bajando el pistón en la etapa de admisión. Estos dos ángulos, el de anticipo a la apertura y de retraso al cierre, sumados a los 180° entre el PMS y el PMI sumarán en un motor estándar, e igual o aproximado al tiempo de apertura de la válvula de admisión, es decir aproximadamente unos 235° hasta 245° de promedio, tiempo suficiente para que el motor pueda expulsar los gases quemados durante la combustión.
 
           .row.justify-content-center.mt-4
-            .col-10
+            .col-lg-10
               .row.justify-content-center
                 .col-lg-3.d-none.d-lg-block
                   figure
@@ -72,8 +72,8 @@
     .row.align-items-center
       .col-md-auto.d-none.d-lg-block
         figure
-          img(src="@/assets/curso/tema1/img12.png", alt="", style="width: 90px").m-auto
-      .col
+          img(src="@/assets/curso/tema1/img12.png", alt="", style="width: auto").m-auto
+      .col.p-md-0
         p.mb-0 En ese sentido, un ángulo mayor de las levas brindará mejor respiración y mayor potencia al motor, pero esta apertura más anticipada y este cierre más retardado de las válvulas produce un desequilibrio y desestabilidad en bajas revoluciones y con ello una falta de torque en esta etapa. Estos inconvenientes pueden o han sido solucionados con sistemas mejorados de inyección y encendido, así como con sistemas de variación en la sincronización de los ejes de levas o en el tiempo y recorrido de las válvulas, que ayudan a tener buena potencia y mejor estabilidad.
 
     .row.justify-content-center.mt-4

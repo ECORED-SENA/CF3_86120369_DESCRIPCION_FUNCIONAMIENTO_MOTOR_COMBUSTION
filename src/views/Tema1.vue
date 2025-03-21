@@ -89,19 +89,22 @@
     #t_1_3.titulo-segundo.color-acento-contenido
       h2 1.3 Accionamiento del eje de levas por banda dentada
     
-    .row.justify-content-center.mb-5.align-items-center
-      .col-lg-7(data-aos="fade-down")
-        .row.d-flex.align-items-stretch.bg-t1-6
-          .col-lg-4.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
-            figure.m-0.p-0.w-100.h-100.d-flex
-              img(src='@/assets/curso/tema1/img10.png', alt='', class="w-100 h-100 object-fit-cover" style="margin-left: -10px;")
-          
-          .col-xl.d-flex
-            .p-4.w-100.d-flex.align-items-center
-              p.mb-0 Para compensar este defecto del posible ruido que produce la cadena durante la transmisión y a reducir el peso de este elemento transmisor, se han diseñado sistemas de transmisión por banda dentada, banda construida de fibras especiales y de goma, cuyas fibras longitudinales evitan su variación o rotura.
-      .col-lg-5.mt-4
-        figure
-          img(src='@/assets/curso/tema1/img11.png', alt='', style="width: 480px").m-auto
+    .row
+      .col-12
+        .p-2
+          .row.justify-content-center.mb-5.align-items-center
+            .col-lg-7(data-aos="fade-down")
+              .row.d-flex.align-items-stretch.bg-t1-6
+                .col-lg-4.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+                  figure.m-0.p-0.w-100.h-100.d-flex
+                    img(src='@/assets/curso/tema1/img10.png', alt='', class="w-100 h-100 object-fit-cover" style="margin-left: -10px;")
+                
+                .col-xl.d-flex
+                  .p-4.w-100.d-flex.align-items-center
+                    p.mb-0 Para compensar este defecto del posible ruido que produce la cadena durante la transmisión y a reducir el peso de este elemento transmisor, se han diseñado sistemas de transmisión por banda dentada, banda construida de fibras especiales y de goma, cuyas fibras longitudinales evitan su variación o rotura.
+            .col-lg-5.mt-4
+              figure
+                img(src='@/assets/curso/tema1/img11.png', alt='', style="width: 480px").m-auto
 
     .row.align-items-center
       .col-md-auto.d-none.d-lg-block

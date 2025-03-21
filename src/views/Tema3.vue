@@ -123,7 +123,7 @@
               .row.bg-t2-2.p-4.mt-4
                 p Por ejemplo, un motor moderno de seis cilindros en ‘V’, al tener dos culatas, una para cada lado de cilindros, puede disponer de un eje de levas de admisión y otro de escape en cada culata; es decir, tendrá cuatro ejes de levas en el motor. Cuando el eje de levas está alojado en el mismo cabezote o culata, la forma de empujar a las válvulas puede diferir, de acuerdo al sistema utilizado y al diseño particular del motor. Por ejemplo, las válvulas pueden ser empujadas a través de palancas basculantes, las cuales tienen un apoyo fijo o calibrable, en el cual “pivotean”, presionando la leva en la parte media de la palanca. El otro extremo de esta palanca presiona a la válvula.
               
-            .col-lg-5.mt-4
+            .col-lg-5.mt-4.d-none.d-lg-block
               figure
                 img(src='@/assets/curso/tema3/img11.png', alt='', style="width: 480px").m-auto
 
@@ -155,7 +155,7 @@
                   .row.align-items-center.justify-content-center
                     .col-2
                       figure
-                        img(src="@/assets/curso/tema3/img15.png", alt="", style="width: 87px")
+                        img(src="@/assets/curso/tema3/img15.png", alt="", style="width: auto")
                     .col-10
                       p Así, la leva empuja a uno de los extremos del balancín, el mismo que pivotea en su eje y el otro extremo se encarga de empujar a la válvula.
 
@@ -168,7 +168,7 @@
               
     .row.justify-content-center
       .row
-        .col-lg-4
+        .col-lg-4.d-none.d-lg-block
           figure
             img(src='@/assets/curso/tema3/img16.png', alt='', style="width: 480px").m-auto
 
@@ -176,7 +176,7 @@
           .row
             .col-md-auto.d-none.d-lg-block
               figure
-                img(src="@/assets/curso/tema3/img17.png", alt="", style="width: 90px").m-auto
+                img(src="@/assets/curso/tema3/img17.png", alt="", style="width: auto").m-auto
             .col
               p.mb-0.mt-4 Tanto en este caso, como en el anterior de palancas basculantes, se tiene un tornillo de calibración o una excéntrica, que permiten la calibración de válvulas, compensando de esta manera el desgaste del sistema, el asentamiento mismo de las válvulas y las dilataciones producidas de cada parte.
               
