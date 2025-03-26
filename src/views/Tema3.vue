@@ -10,7 +10,7 @@
     p A continuación, conoceremos la ubicación de las válvulas y el eje de levas.
     
     separador
-    #t_3_1.titulo-segundo.color-primario
+    #t_3_1.titulo-segundo.color-acento-contenido
       h2 3.1 Válvulas y eje de levas en el bloque de cilindros
 
     .row.justify-content-center
@@ -50,7 +50,7 @@
 
             
       separador
-    #t_3_2.titulo-segundo.color-primario
+    #t_3_2.titulo-segundo.color-acento-contenido
       h2 3.2 Válvulas en la culata y eje de levas en el bloque de cilindros
 
     .row.justify-content-center
@@ -84,20 +84,20 @@
           .col-md-12.col-lg-6.mb-lg-0.mt-4(data-aos="fade-down")
             .p-4.bg-t3-3
               figure
-                img(src='@/assets/curso/tema3/img7.png', alt='', style="width: 140px")
+                img(src='@/assets/curso/tema3/img7.png', alt='', style="width: 87px")
               p Por lo que sigue, este sistema de válvulas en culata, con el eje instalado en bloque de cilindros resulta inapropiado. Porque en motores con cilindros en ‘V’ por ejemplo, se requerirán de muchos propulsores y varillas para impulsar a las válvulas de cada lado de cilindros.
 
             p.mt-3 En estos mismos casos de ejes de levas en el bloque, al disponer el motor de doble fila de cilindros, como en motores en ‘V’ o con cilindros opuestos ‘Boxer’, el eje de levas requerirá de una mayor cantidad de levas, que le servirán para impulsar a las válvulas de cada lado, aunque en algunos casos estas levas puedan, especialmente en motores boxer, servir para impulsar a las válvulas de ambos lados, pero de todas maneras esto lo vuelve complejo e ineficiente.
 
-      .row.mt-4.justify-content-center.p-5
-        .col-lg-1
+      .row.mt-lg-4.justify-content-center.px-5
+        .col-lg-1.d-none.d-lg-block
           figure
-            img(src="@/assets/curso/tema3/img8.png", alt="", style="width: 150px").m-auto
+            img(src="@/assets/curso/tema3/img8.png", alt="", style="width: 87px").m-auto
         .col-lg-11
           p Este sistema de ejes de levas en el bloque de cilindros ha sido desplazado casi completamente al instalar al eje de levas en la misma culata, reduciéndose de esta forma, una serie de mecanismos de transmisión; los cuales restan potencia al motor, vuelven más complejo al comando de válvulas, con los consabidos factores negativos de aumento del peso total y de la reducción de la potencia efectiva, como se presenta en la siguiente figura.     
 
       .row.justify-content-center
-        .col-lg-6.col-md-10.p-lg-0.p-5
+        .col-lg-6.col-md-10.p-lg-0.p-lg-5
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Figura 9
             span  En caso contrario, si las palancas de empuje (balancines) tienen diferentes longitudes de palanca, este desplazamiento de la leva se puede aumentar o disminuir, dependiendo de las necesidades y del diseño del motor
@@ -106,7 +106,7 @@
     
 
     separador
-    #t_3_3.titulo-segundo.color-primario
+    #t_3_3.titulo-segundo.color-acento-contenido
       h2 3.3 Válvulas en la culata y eje de levas sobre palanca basculante
 
     .row.justify-content-center.bg-t3-5
@@ -135,13 +135,13 @@
                   h5 Figura 10
                   span   Eje de levas sobre palanca basculante
                 figure
-                  img(src='@/assets/curso/tema3/img12.png', alt='Imagen que presenta el eje de levas sobre la palanca basculante.', style="width: 400px")
+                  img(src='@/assets/curso/tema3/img12.png', alt='Imagen que presenta el eje de levas sobre la palanca basculante.', style="width: 400px").d-block.d-lg-inline.mx-auto.mx-lg-0
               .col-lg-3.d-none.d-lg-block
                 figure
-                  img(src='@/assets/curso/tema3/img13.png', alt='', style="width: 480px")
+                  img(src='@/assets/curso/tema3/img13.png', alt='', style="heigth: 480px")
 
       separador
-    #t_3_4.titulo-segundo.color-primario
+    #t_3_4.titulo-segundo.color-acento-contenido
       h2 3.4 Válvulas en la culata y eje de levas debajo del balancín
 
     .row.justify-content-center
@@ -208,7 +208,7 @@
                 img(src='@/assets/curso/tema3/img20.png', alt='', style="width: 480px")
                 
       separador
-    #t_3_5.titulo-segundo.color-primario
+    #t_3_5.titulo-segundo.color-acento-contenido
       h2 3.5 Válvulas en la culata y propulsión directa
 
     .row.bg-t3-7
@@ -238,7 +238,7 @@
                   .col-lg-6.col-md-12
                     .row.bg-t3-8.p-lg-5.p-2
                       p Se han diseñado sistemas de empuje directamente desde el eje de levas hasta las válvulas, utilizando solamente propulsores. Con ello, el movimiento es directo y las fuerzas de inercia disminuyen, además de que no se requieren partes adicionales para ello.
-                  .col-lg-6.mt-4
+                  .col-lg-6.mt-4.d-none.d-lg-block
                     figure
                       img(src='@/assets/curso/tema3/img23.png', alt='', style="width: 480px").m-auto
 
@@ -253,7 +253,7 @@
                     h5 Figura 12
                     span Propulsión directa
                   figure
-                    img(src='@/assets/curso/tema3/img25.png', alt='Imagen que presenta un sistema de propulsión directa de las levas, por medio de un propulsor hasta los vástagos de las válvulas.', style="width: 400px")
+                    img(src='@/assets/curso/tema3/img25.png', alt='Imagen que presenta un sistema de propulsión directa de las levas, por medio de un propulsor hasta los vástagos de las válvulas.', style="width: 400px").d-block.d-lg-inline.mx-auto.mx-lg-0
 
 
 

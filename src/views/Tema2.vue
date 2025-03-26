@@ -46,7 +46,7 @@
                     h5 Figura 5
                     span Diagrama estándar de apertura de las válvulas
                   figure
-                    img(src='@/assets/curso/tema2/img4.png', alt='La imagen muestra un diagrama de distribución de válvulas en un motor de combustión interna, indicando los cuatro tiempos del ciclo del motor: admisión (azul claro), compresión (azul oscuro), expansión (rojo) y escape (rosado). Se marcan los puntos clave como PMS (Punto Muerto Superior) y PMI (Punto Muerto Inferior), junto con los momentos de apertura y cierre de las válvulas, incluyendo adelantos y retardos en la sincronización para optimizar el rendimiento del motor.', style="width: 480px")
+                    img(src='@/assets/curso/tema2/img4.png', alt='La imagen muestra un diagrama de distribución de válvulas en un motor de combustión interna, indicando los cuatro tiempos del ciclo del motor: admisión (azul claro), compresión (azul oscuro), expansión (rojo) y escape (rosado). Se marcan los puntos clave como PMS (Punto Muerto Superior) y PMI (Punto Muerto Inferior), junto con los momentos de apertura y cierre de las válvulas, incluyendo adelantos y retardos en la sincronización para optimizar el rendimiento del motor.', style="width: 480px").d-block.d-lg-inline.mx-auto.mx-lg-0
 
               p.mt-4 A estos ángulos de apertura total de las válvulas se deberán sumar algunos grados más, que son aquellos que el perfil de cada leva no empuja a la válvula y es el espacio u holgura dejada para la calibración de las válvulas; ya que esta holgura compensa la dilatación de cada una de las partes en movimiento, especialmente de las válvulas que trabajan con altas temperaturas.
 
