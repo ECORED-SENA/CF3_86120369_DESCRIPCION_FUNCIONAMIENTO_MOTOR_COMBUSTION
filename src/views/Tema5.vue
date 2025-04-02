@@ -248,7 +248,7 @@
             .col-lg-10
               .p-4
                 .row.justify-content-center.mt-4.bg-t1-5.p-4
-                  .col-6.d-none.d-lg-block
+                  .col-lg-6.d-none.d-lg-block
                     figure
                       img(src='@/assets/curso/tema5/img23.png', alt='', style="width: 400px")
                   .col-lg-6
