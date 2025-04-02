@@ -73,7 +73,7 @@
                 h5 Figura 13
                 span Calibración de válvula mayor a la solicitada
               figure
-                img(src='@/assets/curso/tema5/img7.png', alt='', style="width: 480px").d-block.d-lg-inline.mx-auto.mx-lg-0
+                img(src='@/assets/curso/tema5/img7.png', alt='Imagen que presenta la calibración de válvula mayor a la solicitada.', style="width: 480px").d-block.d-lg-inline.mx-auto.mx-lg-0
 
     separador
     #t_5_2.titulo-segundo.color-acento-contenido
@@ -110,7 +110,7 @@
                     h5 Figura 15
                     span Calibración mecánica con perno de regulación
                   figure
-                    img(src='@/assets/curso/tema5/img9.png', alt='', style="width: 400px").d-block.d-lg-inline.mx-auto.mx-lg-0
+                    img(src='@/assets/curso/tema5/img9.png', alt='Imagen que presenta la calibración mecánica con tornillo.', style="width: 400px").d-block.d-lg-inline.mx-auto.mx-lg-0
 
           .row
             .row.mb-2.ms-0.mt-4
@@ -118,7 +118,7 @@
                 .row.align-items-center
                   .col-auto.px-0
                     figure
-                      img(src='@/assets/curso/tema1/icon1.svg', alt='', style='width: 60px')
+                      img(src='@/assets/curso/tema1/icon1.svg', alt='Imagen que presenta la calibración mecánica con perno de regulación.', style='width: 60px')
                   .col
                     h3.mb-0(style="color:white") Automática
 
@@ -130,7 +130,7 @@
                 h5 Figura 16
                 span  Calibración automática
               figure
-                img(src='@/assets/curso/tema5/img10.png', alt='', style="width: 400px").d-block.d-lg-inline.mx-auto.mx-lg-0
+                img(src='@/assets/curso/tema5/img10.png', alt='Imagen que presenta la calibración automática.', style="width: 400px").d-block.d-lg-inline.mx-auto.mx-lg-0
             .col-4.d-none.d-lg-block
               figure
                 img(src='@/assets/curso/tema5/img11.png', alt='', style="width: 400px")
@@ -165,7 +165,7 @@
                   h5 Figura 17
                   span Calibración de válvulas con tornillo y tuerca
                 figure
-                  img(src='@/assets/curso/tema5/img14.png', alt='', style="width: 380px").d-block.d-lg-inline.mx-auto.mx-lg-0
+                  img(src='@/assets/curso/tema5/img14.png', alt='Imagen que presenta la calibración de válvulas con tornillo y tuerca.', style="width: 380px").d-block.d-lg-inline.mx-auto.mx-lg-0
               .col-4.d-none.d-lg-block
                 figure
                   img(src='@/assets/curso/tema5/img15.png', alt='', style="width: 300px")
@@ -218,7 +218,7 @@
                       h5 Figura 18
                       span Calibración de las válvulas con excéntrica
                     figure
-                      img(src='@/assets/curso/tema5/img20.png', alt='', style="width: 380px").d-block.d-lg-inline.mx-auto.mx-lg-0
+                      img(src='@/assets/curso/tema5/img20.png', alt='Imagen que presenta la calibración de las válvulas con excéntrica.', style="width: 380px").d-block.d-lg-inline.mx-auto.mx-lg-0
               
 
     separador
@@ -268,7 +268,7 @@
                     h5 Figura 19
                     span  Calibración de las válvulas con apoyo regulable
                   figure
-                    img(src='@/assets/curso/tema5/img24.png', alt='', style="width: 400px").d-block.d-lg-inline.mx-auto.mx-lg-0
+                    img(src='@/assets/curso/tema5/img24.png', alt='Imagen que presenta cómo la presión hidráulica se encarga de acercar al apoyo.', style="width: 400px").d-block.d-lg-inline.mx-auto.mx-lg-0
                 .col-5.d-none.d-lg-block
                   figure
                     img(src='@/assets/curso/tema5/img25.png', alt='', style="width: 480px")
