@@ -104,7 +104,7 @@
                     h5 Figura 14
                     span Calibración mecánica con tornillo
                   figure
-                    img(src='@/assets/curso/tema5/img8.png', alt='', style="width: 400px").d-block.d-lg-inline.mx-auto.mx-lg-0
+                    img(src='@/assets/curso/tema5/img8.png', alt='Imagen que presenta la calibración mecánica con tornillo.', style="width: 400px").d-block.d-lg-inline.mx-auto.mx-lg-0
                 .col-lg-6.mt-4
                   .titulo-sexto.color-acento-contenido
                     h5 Figura 15
