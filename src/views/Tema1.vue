@@ -30,7 +30,7 @@
         
         p.mt-4 El piñón del cigüeñal engrana con el del eje de levas, teniendo este último el doble del número de dientes que el piñón del cigüeñal, para que la relación 2:1 se mantenga, a pesar de que se podría tener un piñón intermedio, cuando los dos ejes están más alejados entre sí.
 
-      .col-lg-5
+      .col-lg-5.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema1/img3.png', alt='', style="width: 480px").m-auto
 
@@ -102,7 +102,7 @@
                 .col-xl.d-flex
                   .p-4.w-100.d-flex.align-items-center
                     p.mb-0 Para compensar este defecto del posible ruido que produce la cadena durante la transmisión y a reducir el peso de este elemento transmisor, se han diseñado sistemas de transmisión por banda dentada, banda construida de fibras especiales y de goma, cuyas fibras longitudinales evitan su variación o rotura.
-            .col-lg-5.mt-4
+            .col-lg-5.mt-4.d-lg-block.d-none
               figure
                 img(src='@/assets/curso/tema1/img11.png', alt='', style="width: 480px").m-auto
 
