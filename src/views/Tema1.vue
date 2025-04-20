@@ -137,11 +137,11 @@
               h3.mb-0(style="color:white") Ventajas de la banda dentada frente a otros sistemas
 
     .row.d-flex.align-items-stretch.bg-t1-7 
-      .col-xl-5.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+      .col-lg-5.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
         figure.m-0.p-0.w-100.h-100.d-flex
           img(src='@/assets/curso/tema1/img15.png', alt='', class="w-100 h-100 object-fit-cover" style="margin-left: -10px;")
       
-      .col-xl-7.d-flex
+      .col-lg-7.d-flex
         .p-4.w-100.d-flex.align-items-center
           .text-content
             p Este último sistema de banda dentada ha sido adoptado casi por todos los fabricantes. Debido a dos razones: su bajo costo y porque no produce ruido en el motor. Su sistema es silencioso y de fácil reemplazo, el cual debe realizarse, dependiendo de su diseñador entre los 40.000 y 80.000 kilómetros de recorrido, salvo el criterio diferente o el tiempo probado y recomendado por el constructor de cada motor.

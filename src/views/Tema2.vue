@@ -58,11 +58,11 @@
     .row.justify-content-center.mb-5.align-items-center
       .col-lg-7(data-aos="fade-down")
         .row.d-flex.align-items-stretch.bg-t1-7
-          .col-xl-3.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+          .col-lg-3.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
             figure.m-0.p-0.w-100.h-100.d-flex
               img(src='@/assets/curso/tema2/img5.png', alt='', class="w-100 h-100 object-fit-cover" style="margin-left: -10px;")
           
-          .col-xl-9.d-flex
+          .col-lg-9.d-flex
             .p-3.w-100.d-flex.align-items-center
               p.mb-0 El eje de levas estándar de un motor de cuatro ciclos permite un buen llenado del cilindro y una suficiente evacuación de los gases combustionados. Pero en motores que necesitan mayor potencia, además de diseñar de mejor manera cada una de sus partes, utilizando materiales y sistemas más modernos y eficientes, se puede instalar en el motor unos ejes de levas que permitan una óptima respiración, diseñando un ángulo mayor de las levas o modificando su perfil de ataque.
       .col-lg-5.mt-4.d-none.d-lg-block
