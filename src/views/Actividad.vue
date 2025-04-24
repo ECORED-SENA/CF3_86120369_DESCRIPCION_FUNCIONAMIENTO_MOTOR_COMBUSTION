@@ -23,7 +23,7 @@ export default {
         '<b> Objetivo:</b> Evaluar el conocimiento adquirido sobre el funcionamiento, ubicación y ajuste de los componentes del sistema de distribución en motores de combustión interna, incluyendo el eje de levas, las válvulas y los diferentes mecanismos de accionamiento.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!...',
-      titulo_reprobado: '¡VUELVA A INTENTARLO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO..',
       preguntas: [
         {
           id: 1,
