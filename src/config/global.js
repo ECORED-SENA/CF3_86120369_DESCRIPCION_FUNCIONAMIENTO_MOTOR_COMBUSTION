@@ -250,7 +250,7 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Líder del Ecosistema',
+          cargo: 'Líder del ecosistema',
           centro: 'Dirección General',
         },
         {
@@ -267,7 +267,7 @@ export default {
           nombre: 'Carlos Edwin Abello Rubiano',
           cargo: 'Experto temático',
           centro:
-            'Centro de la Tecnología del Diseño y la Productividad Empresarial. Regional Cundinamarca.',
+            'Centro de la Tecnología del Diseño y la Productividad Empresarial - Regional Cundinamarca.',
         },
         {
           nombre: 'Ana Catalina Córdoba Sus',

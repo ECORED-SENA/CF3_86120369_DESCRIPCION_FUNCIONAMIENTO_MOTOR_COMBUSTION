@@ -2,16 +2,16 @@
 .curso-main-container.introduccion
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span
           i.fas.fa-info
       h1 Introducción
     .row.bg-intro1
       .col-12
-        .p-5
-          .row.align-items-center.justify-content-center.mt-2(data-aos="fade-down")
-            .col-lg-7(data-aos="fade-left")
+        .px-5
+          .row.align-items-center.justify-content-center(data-aos="fade-down")
+            .col-lg-7.mb-4.mb-lg-0(data-aos="fade-left")
               .row
                 .col-12.align-items-center.h-100
                   .p-4.bg-intro2
@@ -23,11 +23,11 @@
 
                         p #[b ¡Muchos éxitos en esta experiencia de aprendizaje!]
 
-            .col-lg-5.mb-4.mb-lg-0.mt-4(data-aos="fade-right")
+            .col-lg-5(data-aos="fade-right")
               figure
                 img(src='@/assets/curso/intro/img2.png', alt='', style="width: 480px").m-auto
 
-          figure.mt-4.d-none.d-lg-block
+          figure.mt-4.d-none.d-lg-block(data-aos="fade-right")
             img(src='@/assets/curso/intro/img3.png', alt='').m-auto 
                 
 
@@ -39,6 +39,14 @@ export default {
   data: () => ({
     // variables de vue
   }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 
