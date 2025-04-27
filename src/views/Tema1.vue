@@ -40,11 +40,11 @@
           img(src='@/assets/curso/tema1/img4.png', alt='', style="height: 460px").m-auto
       .col-lg-5.col-md-12
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 1
+          h5 Figura 1.
           span Accionamiento del eje de levas por piñones  
         figure
           img(src='@/assets/curso/tema1/img5.png', alt='La imagen muestra un diagrama técnico del sistema de distribución de un motor de combustión interna, ilustrando la conexión entre el cigüeñal y el árbol de levas mediante un conjunto de engranajes.', style="width: 500px").m-auto
-          figcaption.mt-2 Nota. Tomado y adaptado de https://www.ro-des.com/mecanica/averias-en-el-arbol-de-levas/
+          figcaption.mt-2 #[b Nota.] Tomado y adaptado de #[a(href="https://www.ro-des.com/mecanica/averias-en-el-arbol-de-levas/" target="_blank") https://www.rodes.com/mecanica/averias-en-el-arbol-de-levas/]
 
     separador
     #t_1_2.titulo-segundo.color-acento-contenido
@@ -77,10 +77,11 @@
                       img(src='@/assets/curso/tema1/img8.png', alt='', style="width: 480px").m-auto
                   .col-lg-6.col-md-12(data-aos="fade-left")
                     .titulo-sexto.color-acento-contenido.mb-3
-                      h5 Figura 2
+                      h5 Figura 2.
                       span Accionamiento del eje levas por cadena metálica
                     figure
                       img(src='@/assets/curso/tema1/img9.png', alt='La imagen muestra un esquema del sistema de distribución de un motor de combustión interna, resaltando los componentes clave del mecanismo de válvulas. Se observa la cadena de distribución, que transmite el movimiento del piñón del cigüeñal al piñón del árbol de levas, permitiendo la sincronización de las válvulas de admisión y escape. También se identifican elementos como el taqué, la varilla empujadora, el balancín y el muelle de cierre, los cuales controlan la apertura y cierre de las válvulas en el ciclo del motor.', style="width: 480px").m-auto
+                    figcaption.mt-2 #[b Nota.] Accionamiento del eje levas por cadena metálica. (s.f.). [Imagen].
 
     separador
     #t_1_3.titulo-segundo.color-acento-contenido
@@ -114,11 +115,13 @@
       .col-10
         .row.justify-content-center
           .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
-            h5 Figura 3 
+            h5 Figura 3.
             span Motor de cuatro cilindros, cuya distribución es comandada por una banda dentada, que impulsa a dos ejes de levas
           .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
             figure
-            img(src='@/assets/curso/tema1/img13.png', alt='Motor de cuatro cilindros, cuya distribución es comandada por una banda dentada, que impulsa a dos ejes de levas.', style="width: 480px").m-auto
+              img(src='@/assets/curso/tema1/img13.png', alt='Motor de cuatro cilindros, cuya distribución es comandada por una banda dentada, que impulsa a dos ejes de levas.', style="width: 500px").m-auto
+            figcaption.mt-2 #[b Nota.] Motor de cuatro cilindros, cuya distribución es comandada por una banda dentada, que impulsa a dos ejes de levas. (s.f.). [Imagen].
+
           .col-lg-6(data-aos="fade-left")
             figure
             img(src='@/assets/curso/tema1/img14.png', alt='', style="width: 480px").m-auto
@@ -154,10 +157,11 @@
           img(src='@/assets/curso/tema1/img16.png', alt='', style="width: 480px").m-auto
       .col-lg-5.col-md-10(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 4
+          h5 Figura 4.
           span Muestra de los puntos con marcas realizadas
         figure
-          img(src='@/assets/curso/tema1/img17.png', alt='La imagen muestra un sistema de distribución por banda dentada, con dos piñones de sincronización que corresponden al árbol de levas. Se observan señales de alineación, que son marcas de referencia utilizadas para sincronizar correctamente la distribución del motor. Estas marcas garantizan que las válvulas y los pistones trabajen en la secuencia adecuada, evitando problemas en el funcionamiento del motor.', style="width: 480px").m-auto
+          img(src='@/assets/curso/tema1/img17.png', alt='La imagen muestra un sistema de distribución por banda dentada, con dos piñones de sincronización que corresponden al árbol de levas. Se observan señales de alineación, que son marcas de referencia utilizadas para sincronizar correctamente la distribución del motor. Estas marcas garantizan que las válvulas y los pistones trabajen en la secuencia adecuada, evitando problemas en el funcionamiento del motor.', style="width: 500px").m-auto
+        figcaption.mt-2 #[b Nota.] Muestra de los puntos con marcas realizadas. (s.f.). [Imagen]
 
 
 </template>

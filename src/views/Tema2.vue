@@ -43,10 +43,11 @@
                     img(src='@/assets/curso/tema2/img3.png', alt='', style="width: 480px").m-auto
                 .col-lg-7.col-md-12(data-aos="fade-left")
                   .titulo-sexto.color-acento-contenido.mb-3
-                    h5 Figura 5
+                    h5 Figura 5.
                     span Diagrama estándar de apertura de las válvulas
                   figure
-                    img(src='@/assets/curso/tema2/img4.png', alt='La imagen muestra un diagrama de distribución de válvulas en un motor de combustión interna, indicando los cuatro tiempos del ciclo del motor: admisión (azul claro), compresión (azul oscuro), expansión (rojo) y escape (rosado). Se marcan los puntos clave como PMS (Punto Muerto Superior) y PMI (Punto Muerto Inferior), junto con los momentos de apertura y cierre de las válvulas, incluyendo adelantos y retardos en la sincronización para optimizar el rendimiento del motor.', style="width: 480px").d-block.d-lg-inline.mx-auto.mx-lg-0
+                    img(src='@/assets/curso/tema2/img4.png', alt='La imagen muestra un diagrama de distribución de válvulas en un motor de combustión interna, indicando los cuatro tiempos del ciclo del motor: admisión (azul claro), compresión (azul oscuro), expansión (rojo) y escape (rosado). Se marcan los puntos clave como PMS (Punto Muerto Superior) y PMI (Punto Muerto Inferior), junto con los momentos de apertura y cierre de las válvulas, incluyendo adelantos y retardos en la sincronización para optimizar el rendimiento del motor.', style="width: 600px").d-block.d-lg-inline.mx-auto.mx-lg-0
+                  figcaption.mt-2 #[b Nota.] Diagrama estándar de apertura de las válvulas. (s.f.). [Imagen]
 
               p.mt-4(data-aos="fade-down") A estos ángulos de apertura total de las válvulas se deberán sumar algunos grados más, que son aquellos que el perfil de cada leva no empuja a la válvula y es el espacio u holgura dejada para la calibración de las válvulas; ya que esta holgura compensa la dilatación de cada una de las partes en movimiento, especialmente de las válvulas que trabajan con altas temperaturas.
 
@@ -79,12 +80,13 @@
     .row.justify-content-center.mt-4
       .col-10
         .row.justify-content-center
-          .col-lg-6(data-aos="fade-right")
+          .col-lg-7(data-aos="fade-right")
             .titulo-sexto.color-acento-contenido.mb-3
-              h5 Figura 6
+              h5 Figura 6.
               span Diagrama de distribución mejorado
             figure
-              img(src='@/assets/curso/tema2/img7.png', alt='El diagrama mejorado de apertura de las válvulas muestra la sincronización optimizada en un motor de combustión interna, destacando los cuatro tiempos del ciclo: admisión, compresión, expansión y escape. Se incluyen adelantos y retardos en la apertura y cierre de las válvulas para mejorar la eficiencia y potencia del motor, alineados con los puntos PMS (Punto Muerto Superior) y PMI (Punto Muerto Inferior).', style="width: 480px")
+              img(src='@/assets/curso/tema2/img7.png', alt='El diagrama mejorado de apertura de las válvulas muestra la sincronización optimizada en un motor de combustión interna, destacando los cuatro tiempos del ciclo: admisión, compresión, expansión y escape. Se incluyen adelantos y retardos en la apertura y cierre de las válvulas para mejorar la eficiencia y potencia del motor, alineados con los puntos PMS (Punto Muerto Superior) y PMI (Punto Muerto Inferior).', style="width: 600px")
+            figcaption.mt-2 #[b Nota.] Diagrama de distribución mejorado. (s.f.). [Imagen]
           .col-lg-4.d-none.d-lg-block(data-aos="fade-left")
             figure
               img(src='@/assets/curso/tema2/img8.png', alt='', style="width: 300px")

@@ -36,18 +36,17 @@
 
     .row.justify-content-center.mt-4.bg-t3-1
       .col-10
-        .row.justify-content-center
+        .row.justify-content-center.align-items-center
           .col-lg-5(data-aos="fade-right")
             .titulo-sexto.color-acento-contenido.mb-3
-              h5 Figura 7
-              span  Válvulas y eje de levas en el bloque de cilindros
+              h5 Figura 7.
+              span Válvulas y eje de levas en el bloque de cilindros
             figure
-              img(src='@/assets/curso/tema3/img2.png', alt='La imagen muestra un esquema del proceso de admisión en un motor de combustión interna, destacando el flujo de aire y combustible hacia la cámara de combustión.', style="width: 300px").m-auto
+              img(src='@/assets/curso/tema3/img2.png', alt='La imagen muestra un esquema del proceso de admisión en un motor de combustión interna, destacando el flujo de aire y combustible hacia la cámara de combustión.', style="width: 440px").m-auto
+            figcaption.mt-2 #[b Nota.] Válvulas y eje de levas en el bloque de cilindros. (s.f.). [Imagen].
           .col-lg-4.d-none.d-lg-block(data-aos="fade-left")
             figure
               img(src='@/assets/curso/tema3/img3.png', alt='', style="width: 480px").m-auto
-
-
             
       separador
     #t_3_2.titulo-segundo.color-acento-contenido
@@ -77,10 +76,11 @@
         .row.justify-content-center
           .col-lg-6(data-aos="fade-right")
             .titulo-sexto.color-acento-contenido.mb-3
-              h5 Figura 8
-              span  En caso contrario, si las palancas de empuje (balancines) tienen diferentes longitudes de palanca, este desplazamiento de la leva se puede aumentar o disminuir, dependiendo de las necesidades y del diseño del motor
+              h5 Figura 8.
+              span En caso contrario, si las palancas de empuje (balancines) tienen diferentes longitudes de palanca, este desplazamiento de la leva se puede aumentar o disminuir, dependiendo de las necesidades y del diseño del motor
             figure
-              img(src='@/assets/curso/tema3/img6.png', alt='La imagen presenta cómo en caso contrario, si las palancas de empuje (balancines) tienen diferentes longitudes de palanca, este desplazamiento de la leva se puede aumentar o disminuir, dependiendo de las necesidades y del diseño del motor', style="width: 480px").m-auto
+              img(src='@/assets/curso/tema3/img6.png', alt='La imagen presenta cómo en caso contrario, si las palancas de empuje (balancines) tienen diferentes longitudes de palanca, este desplazamiento de la leva se puede aumentar o disminuir, dependiendo de las necesidades y del diseño del motor', style="width: 530px").m-auto
+            figcaption.mt-2 #[b Nota.] En caso contrario, si las palancas de empuje (balancines) tienen diferentes longitudes de palanca, este desplazamiento de la leva se puede aumentar o disminuir, dependiendo de las necesidades y del diseño del motor. (s.f.). [Imagen]
           .col-md-12.col-lg-6.mb-lg-0.mt-4(data-aos="fade-left")
             .p-4.bg-t3-3
               figure
@@ -99,10 +99,11 @@
       .row.justify-content-center
         .col-lg-6.col-md-10.p-lg-0.p-lg-5
           .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
-            h5 Figura 9
-            span  En caso contrario, si las palancas de empuje (balancines) tienen diferentes longitudes de palanca, este desplazamiento de la leva se puede aumentar o disminuir, dependiendo de las necesidades y del diseño del motor
+            h5 Figura 9.
+            span En caso contrario, si las palancas de empuje (balancines) tienen diferentes longitudes de palanca, este desplazamiento de la leva se puede aumentar o disminuir, dependiendo de las necesidades y del diseño del motor
           figure(data-aos="fade-left")
-            img(src='@/assets/curso/tema3/img9.png', alt='La imagen presenta cómo el sistema de ejes de levas en el bloque de cilindros ha sido desplazado casi completamente al instalar al eje de levas en la misma culata.', style="width: 480px").m-auto 
+            img(src='@/assets/curso/tema3/img9.png', alt='La imagen presenta cómo el sistema de ejes de levas en el bloque de cilindros ha sido desplazado casi completamente al instalar al eje de levas en la misma culata.', style="width: 550px").m-auto 
+          figcaption.mt-2 #[b Nota.] En caso contrario, si las palancas de empuje (balancines) tienen diferentes longitudes de palanca, este desplazamiento de la leva se puede aumentar o disminuir, dependiendo de las necesidades y del diseño del motor. (s.f.). [Imagen]
     
 
     separador
@@ -129,13 +130,14 @@
 
             p.mt-4(data-aos="fade-down") La longitud de la palanca basculante y la posición del eje de levas con respecto a esta palanca influyen en el recorrido de las válvulas, además, por supuesto, de la altura total de la leva.
 
-            .row.justify-content-center
+            .row.justify-content-center.align-items-center
               .col-lg-5.col-md-12(data-aos="fade-right")
                 .titulo-sexto.color-acento-contenido.mb-3
-                  h5 Figura 10
-                  span   Eje de levas sobre palanca basculante
+                  h5 Figura 10.
+                  span Eje de levas sobre palanca basculante
                 figure
-                  img(src='@/assets/curso/tema3/img12.png', alt='Imagen que presenta el eje de levas sobre la palanca basculante.', style="width: 400px").d-block.d-lg-inline.mx-auto.mx-lg-0
+                  img(src='@/assets/curso/tema3/img12.png', alt='Imagen que presenta el eje de levas sobre la palanca basculante.', style="width: 500px").d-block.d-lg-inline.mx-auto.mx-lg-0
+                figcaption.mt-2 #[b Nota.] Eje de levas sobre palanca basculante. (s.f.). [Imagen].
               .col-lg-3.d-none.d-lg-block(data-aos="fade-left")
                 figure
                   img(src='@/assets/curso/tema3/img13.png', alt='', style="heigth: 480px")
@@ -159,12 +161,9 @@
                     .col-md-10
                       p Así, la leva empuja a uno de los extremos del balancín, el mismo que pivotea en su eje y el otro extremo se encarga de empujar a la válvula.
 
-                    
-                    
                 .col-lg-4.pe-lg-0.mb-4.mb-lg-0.d-flex.d-none.d-lg-block(data-aos="fade-left")
                   figure.m-0.p-0.w-100.h-100.d-flex
                     img(src='@/assets/curso/tema3/img14.png', alt='', class="w-100 h-100 object-fit-cover" style="margin-left: 10px; width:")
-                
               
     .row.justify-content-center
       .row
@@ -196,13 +195,14 @@
         .p-5
           p(data-aos="fade-down") El balancín también es considerado como una palanca de dos brazos, el cual gira en un punto de apoyo en el medio de ellos.
 
-          .row.justify-content-center.mt-4
+          .row.justify-content-center.align-items-center.mt-4
             .col-lg-5.col-md-12(data-aos="fade-right")
               .titulo-sexto.color-acento-contenido.mb-3
-                h5 Figura 11
+                h5 Figura 11.
                 span Eje de levas debajo del balancín
               figure
-                img(src='@/assets/curso/tema3/img19.png', alt='Imagen que presenta el eje de levas debajo del balancín.', style="width: 400px").m-auto
+                img(src='@/assets/curso/tema3/img19.png', alt='Imagen que presenta el eje de levas debajo del balancín.', style="width: 500px").m-auto
+              figcaption.mt-2 #[b Nota.] Eje de levas debajo del balancín. (s.f.). [Imagen]
             .col-lg-3.d-none.d-lg-block(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema3/img20.png', alt='', style="width: 480px")
@@ -248,12 +248,13 @@
                 .col-xl-4.d-none.d-xl-block(data-aos="fade-right")
                   figure
                     img(src='@/assets/curso/tema3/img24.png', alt='', style="width: 480px")
-                .col-xl-5(data-aos="fade-left")
+                .col-xl-7(data-aos="fade-left")
                   .titulo-sexto.color-acento-contenido.mb-3
-                    h5 Figura 12
+                    h5 Figura 12.
                     span Propulsión directa
                   figure
-                    img(src='@/assets/curso/tema3/img25.png', alt='Imagen que presenta un sistema de propulsión directa de las levas, por medio de un propulsor hasta los vástagos de las válvulas.', style="width: 440px").m-auto
+                    img(src='@/assets/curso/tema3/img25.png', alt='Imagen que presenta un sistema de propulsión directa de las levas, por medio de un propulsor hasta los vástagos de las válvulas.', style="width: 550px").m-auto
+                  figcaption.mt-2 #[b Nota.] Propulsión directa. (s.f.). [Imagen]
 
 </template>
 

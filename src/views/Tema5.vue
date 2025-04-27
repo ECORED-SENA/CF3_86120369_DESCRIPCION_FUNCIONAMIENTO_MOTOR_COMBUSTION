@@ -70,10 +70,11 @@
                 img(src='@/assets/curso/tema5/img6.png', alt='', style="width: 400px")
             .col-lg-5(data-aos="fade-left")
               .titulo-sexto.color-acento-contenido.mb-3
-                h5 Figura 13
+                h5 Figura 13.
                 span Calibración de válvula mayor a la solicitada
               figure
-                img(src='@/assets/curso/tema5/img7.png', alt='Imagen que presenta la calibración de válvula mayor a la solicitada.', style="width: 480px").d-block.d-lg-inline.mx-auto.mx-lg-0
+                img(src='@/assets/curso/tema5/img7.png', alt='Imagen que presenta la calibración de válvula mayor a la solicitada.', style="width: 500px").d-block.d-lg-inline.mx-auto.mx-lg-0
+              figcaption.mt-2 #[b Nota.] Calibración de válvula mayor a la solicitada. (s.f.). [Imagen]
 
     separador
     #t_5_2.titulo-segundo.color-acento-contenido
@@ -98,19 +99,22 @@
 
           .row.justify-content-center
             .col-lg-10
-              .row.justify-content-center.mt-4.bg-t1-5.p-4
-                .col-lg-6(data-aos="fade-right")
-                  .titulo-sexto.color-acento-contenido
-                    h5 Figura 14
-                    span Calibración mecánica con tornillo
-                  figure
-                    img(src='@/assets/curso/tema5/img8.png', alt='Imagen que presenta la calibración mecánica con tornillo.', style="width: 400px").d-block.d-lg-inline.mx-auto.mx-lg-0
-                .col-lg-6.mt-4(data-aos="fade-left")
-                  .titulo-sexto.color-acento-contenido
-                    h5 Figura 15
-                    span Calibración mecánica con perno de regulación
-                  figure
-                    img(src='@/assets/curso/tema5/img9.png', alt='Imagen que presenta la calibración mecánica con tornillo.', style="width: 400px").d-block.d-lg-inline.mx-auto.mx-lg-0
+              .p-4.bg-t1-5
+                .row.justify-content-center
+                  .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
+                    .titulo-sexto.color-acento-contenido
+                      h5 Figura 14.
+                      span Calibración mecánica con tornillo
+                    figure
+                      img(src='@/assets/curso/tema5/img8.png', alt='Imagen que presenta la calibración mecánica con tornillo.', style="width: 550px").d-block.d-lg-inline.mx-auto.mx-lg-0
+                    figcaption.mt-2 #[b Nota.] Calibración mecánica con tornillo. (s.f.). [Imagen]
+                  .col-lg-6(data-aos="fade-left")
+                    .titulo-sexto.color-acento-contenido
+                      h5 Figura 15.
+                      span Calibración mecánica con perno de regulación
+                    figure
+                      img(src='@/assets/curso/tema5/img9.png', alt='Imagen que presenta la calibración mecánica con tornillo.', style="width: 550px").d-block.d-lg-inline.mx-auto.mx-lg-0
+                    figcaption.mt-2 #[b Nota.] Calibración mecánica con perno de regulación. (s.f.). [Imagen]
 
           .row
             .row.mb-2.ms-0.mt-4
@@ -127,10 +131,11 @@
           .row.justify-content-center.mt-4
             .col-lg-5(data-aos="fade-right")
               .titulo-sexto.color-acento-contenido.mb-3
-                h5 Figura 16
-                span  Calibración automática
+                h5 Figura 16.
+                span Calibración automática
               figure
-                img(src='@/assets/curso/tema5/img10.png', alt='Imagen que presenta la calibración automática.', style="width: 400px").d-block.d-lg-inline.mx-auto.mx-lg-0
+                img(src='@/assets/curso/tema5/img10.png', alt='Imagen que presenta la calibración automática.', style="width: 500px").d-block.d-lg-inline.mx-auto.mx-lg-0
+              figcaption.mt-2 #[b Nota.] Calibración automática. (s.f.). [Imagen]
             .col-4.d-none.d-lg-block(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema5/img11.png', alt='', style="width: 400px")
@@ -162,10 +167,11 @@
             .row.justify-content-center.mt-4
               .col-lg-5(data-aos="fade-right")
                 .titulo-sexto.color-acento-contenido.mb-3
-                  h5 Figura 17
+                  h5 Figura 17.
                   span Calibración de válvulas con tornillo y tuerca
                 figure
-                  img(src='@/assets/curso/tema5/img14.png', alt='Imagen que presenta la calibración de válvulas con tornillo y tuerca.', style="width: 380px").d-block.d-lg-inline.mx-auto.mx-lg-0
+                  img(src='@/assets/curso/tema5/img14.png', alt='Imagen que presenta la calibración de válvulas con tornillo y tuerca.', style="width: 500px").d-block.d-lg-inline.mx-auto.mx-lg-0
+                figcaption.mt-2 #[b Nota.] Calibración de válvulas con tornillo y tuerca. (s.f.). [Imagen]
               .col-4.d-none.d-lg-block(data-aos="fade-left")
                 figure
                   img(src='@/assets/curso/tema5/img15.png', alt='', style="width: 300px")
@@ -211,12 +217,13 @@
                     p.mb-0 El técnico entonces, deberá girar la tuerca de la excéntrica para obtener la holgura recomendada por el fabricante del motor, en ocasiones podrá recomendar tomar la holgura entre el eje de levas y el balancín; es decir, en el otro extremo de la medición.
 
                 .row.justify-content-center.mt-4
-                  .col-lg-5
+                  .col-lg-auto
                     .titulo-sexto.color-acento-contenido.mb-3
-                      h5 Figura 18
+                      h5 Figura 18.
                       span Calibración de las válvulas con excéntrica
                     figure
-                      img(src='@/assets/curso/tema5/img20.png', alt='Imagen que presenta la calibración de las válvulas con excéntrica.', style="width: 380px").d-block.d-lg-inline.mx-auto.mx-lg-0
+                      img(src='@/assets/curso/tema5/img20.png', alt='Imagen que presenta la calibración de las válvulas con excéntrica.', style="width: 450px").d-block.d-lg-inline.mx-auto.mx-lg-0
+                    figcaption.mt-2 #[b Nota.] Calibración de las vapinglas con excéntrica. (s.f.). [Imagen]
 
     separador
     #t_5_5.titulo-segundo.color-acento-contenido
@@ -258,13 +265,14 @@
 
               p.mt-4(data-aos="fade-down") Por esta razón, los propulsores mecánicos que se apoyan sobre las levas, al propulsar a las varillas están empujando a cada balancín y este finalmente a la válvula.
 
-              .row.justify-content-center.mt-4
-                .col-lg-5(data-aos="fade-right")
+              .row.justify-content-center.align-items-center.mt-4
+                .col-lg-auto(data-aos="fade-right")
                   .titulo-sexto.color-acento-contenido.mb-3
-                    h5 Figura 19
-                    span  Calibración de las válvulas con apoyo regulable
+                    h5 Figura 19.
+                    span Calibración de las válvulas con apoyo regulable
                   figure
-                    img(src='@/assets/curso/tema5/img24.png', alt='Imagen que presenta cómo la presión hidráulica se encarga de acercar al apoyo.', style="width: 400px").d-block.d-lg-inline.mx-auto.mx-lg-0
+                    img(src='@/assets/curso/tema5/img24.png', alt='Imagen que presenta cómo la presión hidráulica se encarga de acercar al apoyo.', style="width: 450px").d-block.d-lg-inline.mx-auto.mx-lg-0
+                  figcaption.mt-2 #[b Nota.] Calibración de las vapinglas con apoyo regulable. (s.f.). [Imagen]
                 .col-5.d-none.d-lg-block(data-aos="fade-left")
                   figure
                     img(src='@/assets/curso/tema5/img25.png', alt='', style="width: 480px")
